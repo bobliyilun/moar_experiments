@@ -1,0 +1,217 @@
+default_model: gemini/gemini-2.5-flash-lite
+bypass_cache: true
+datasets:
+  contracts_data:
+    type: file
+    path: experiments/reasoning/data/train/cuad.json
+operations:
+- name: split_extract_contract_info
+  type: split
+  split_key: document
+  method: token_count
+  method_kwargs:
+    num_tokens: 15000
+    model: gemini/gemini-2.5-flash-lite
+- name: topk_extract_contract_info_chunks
+  type: topk
+  method: fts
+  k: 7
+  keys:
+  - document_chunk
+  query: Document Name, Agreement Date, Effective Date, Expiration Date, Renewal,
+    Termination, Non-Compete, Exclusivity, Assignment, Governing Law, License, Damages,
+    Insurance, Audit, Rights, Restriction, IP, Beneficiary, Indemnification, Confidential,
+    Limitation, Clause, Notice, Franchisee, Agreement, Clause, Section, Grant, Provision,
+    Fee, Obligation, Warranty, Liability, Service, Partner, Transfer, Term, Reference,
+    Payment, Duration, Parties, Post-Termination, Volume, Commitment, Restriction,
+    Revenue, Profit Sharing, Source Code
+  stratify_key:
+  - split_extract_contract_info_id
+- name: reduce_extract_contract_info
+  type: reduce
+  reduce_key: split_extract_contract_info_id
+  prompt: 'You are given a contract document below. Your task is to identify and extract
+    the most relevant, verbatim text spans from the document for each of the 41 legal
+    clause categories listed. Carefully follow these instructions for each extraction:
+
+
+    the top {{ inputs|length }} most relevant chunks from the document (ordered by
+    relevance):
+
+    {% for input in inputs|sort(attribute=''_topk_extract_contract_info_chunks_rank'')
+    %}
+
+    Chunk (Rank {{ input._topk_extract_contract_info_chunks_rank }}, Score {{ input._topk_extract_contract_info_chunks_score
+    }}):
+
+    {{ input.document_chunk }}
+
+    {% endfor %}
+
+
+    Instructions:
+
+    - For each category, return the exact quoted text from the document that directly
+    addresses or defines the clause. Include section headings if they are part of
+    the clause text or directly identify the section. If the document uses different
+    terminology or synonyms for a category, extract those sections as well.
+
+    - If a clause appears in multiple places (e.g., main text and definitions, or
+    several related subsections), extract all relevant text spans as a comma-separated
+    list of full sentences or paragraphs, not fragments. Do not concatenate disparate
+    fragments into a single span.
+
+    - Only include text as it appears in the document, preserving all language, section
+    numbers/headings, and subclause structure. Do not rephrase or summarize.
+
+    - If a section is redacted (e.g., shown as [***]), note it explicitly by marking
+    the text span as ''[REDACTED]'' for that category.
+
+    - For metadata categories (such as Document Name, Parties, or Dates), scan the
+    entire document including headers, title pages, preambles, recitals, and pre-signature
+    blocks. Parties may be mentioned in: (a) the introductory heading, (b) the opening
+    paragraph, or (c) signature blocks; collect every relevant mention as described
+    above.
+
+    - For clauses referring to other documents (such as License Agreement, Addendum,
+    or Exhibits), extract the referenced clause together with its reference language.
+
+    - If a category is not present or cannot be determined, return an empty string
+    for that category.
+
+    - Where confidential info is replaced by symbols or omission notices (such as
+    ''***''), include the existing text as is.
+
+    - For all categories, aim to extract the span that a legal professional would
+    cite as authoritative for that provision, even if that means extracting more than
+    one sentence or a whole section.
+
+    - Maintain mapping between clauses and categories as a list of objects {clause_type:
+    <category>, text_span: <extracted verbatim text>} as specified in the output schema.
+    The order should follow the listed categories below.
+
+
+    Clause categories (extract quoted text for each):
+
+    1. Document Name
+
+    2. Parties
+
+    3. Agreement Date
+
+    4. Effective Date
+
+    5. Expiration Date
+
+    6. Renewal Term
+
+    7. Notice to Terminate Renewal
+
+    8. Governing Law
+
+    9. Most Favored Nation
+
+    10. Non-Compete
+
+    11. Exclusivity
+
+    12. No-Solicit of Customers
+
+    13. Competitive Restriction Exception
+
+    14. No-Solicit of Employees
+
+    15. Non-Disparagement
+
+    16. Termination for Convenience
+
+    17. Right of First Refusal, Offer or Negotiation
+
+    18. Change of Control
+
+    19. Anti-Assignment
+
+    20. Revenue/Profit Sharing
+
+    21. Price Restriction
+
+    22. Minimum Commitment
+
+    23. Volume Restriction
+
+    24. IP Ownership Assignment
+
+    25. Joint IP Ownership
+
+    26. License Grant
+
+    27. Non-Transferable License
+
+    28. Affiliate IP License-Licensor
+
+    29. Affiliate IP License-Licensee
+
+    30. Unlimited/All-You-Can-Eat License
+
+    31. Irrevocable or Perpetual License
+
+    32. Source Code Escrow
+
+    33. Post-Termination Services
+
+    34. Audit Rights
+
+    35. Uncapped Liability
+
+    36. Cap on Liability
+
+    37. Liquidated Damages
+
+    38. Warranty Duration
+
+    39. Insurance
+
+    40. Covenant Not to Sue
+
+    41. Third Party Beneficiary
+
+
+    Return your output as a JSON list, where each element contains the category (clause_type)
+    and the verbatim extracted text (text_span) as specified above. If multiple non-overlapping
+    sections apply to one category, include all as a comma-separated list of spans.
+    If none found, use empty string. Preserve all text formatting, section headers,
+    or unique identifiers from the original document.'
+  model: gemini/gemini-2.5-flash-lite
+  litellm_completion_kwargs:
+    temperature: 0
+  output:
+    schema:
+      clauses: 'list[{clause_type: string, text_span: string}]'
+  associative: false
+  pass_through: true
+pipeline:
+  steps:
+  - name: contract_analysis
+    input: contracts_data
+    operations:
+    - split_extract_contract_info
+    - topk_extract_contract_info_chunks
+    - reduce_extract_contract_info
+  output:
+    type: file
+    path: /mnt/docetl-ro-experiments/outputs/cuad_mcts_final/gemini_2.5_flash_lite_config_30.json
+
+
+optimizer_config:
+  type: moar
+  save_dir: results/moar_optimization
+  available_models:  # LiteLLM model names - ensure API keys are set in your environment
+    - gpt-4o-mini
+    - gpt-4o
+    - gpt-5.1-mini
+    - gpt-5.1
+  evaluation_file: evaluate_medications.py
+  metric_key: medication_extraction_score  # This must match a key in your evaluation function's return dictionary
+  max_iterations: 40
+  rewrite_agent_model: gpt-5.1
+  dataset_path: data/transcripts_sample.json  # Optional: use sample/hold-out dataset
