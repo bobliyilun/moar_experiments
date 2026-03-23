@@ -1,0 +1,33 @@
+datasets:
+  intel_docs:
+    type: file
+    path: blackvault.json
+
+optimizer_config:
+  type: moar
+  target: cost 
+  max_iterations: 30
+  evaluation_file: eval_blackvault.py # Required for MOAR
+
+operations:
+  - name: extract_events
+    type: map
+    optimize: true
+    prompt: "Extract the event type and location from this declassified document."
+    output:
+      schema:
+        events: "list[{type: str, location: str}]"
+        
+  - name: aggregate_intelligence
+    type: reduce
+    optimize: true
+    reduce_key: "location"
+    prompt: "Aggregate all events for this location, remove duplicates, and merge them into a single timeline."
+    output:
+      schema:
+        timeline: "str"
+
+steps:
+  - name: process_intel
+    input: intel_docs
+    operations: [extract_events, aggregate_intelligence]
