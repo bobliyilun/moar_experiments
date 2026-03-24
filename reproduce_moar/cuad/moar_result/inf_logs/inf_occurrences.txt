@@ -159,3 +159,325 @@
                 Error Message: Failed to execute plan /Users/yilunli/Desktop/moar_experiments/moar_experiments/reproduce_moar/cuad/moar_result/cuad_gpt-5.1.yaml: slice(0, 1, None)
                 ================================================================================
                 
+                ================================================================================
+                Timestamp: 2026-03-25 00:25:06
+                Node ID: 1
+                Parent ID: 0
+                Latest Action: None
+                Failure Type: execution_failure
+                YAML Path: /Users/yilunli/Desktop/moar_experiments/moar_experiments/reproduce_moar/cuad/moar_result/cuad_gpt-4o-mini.yaml
+                Error Message: slice(0, 1, None)
+                ================================================================================
+                
+                ================================================================================
+                Timestamp: 2026-03-25 00:25:06
+                Node ID: 1
+                Parent ID: 0
+                Latest Action: None
+                Failure Type: simulation_execution_failure
+                YAML Path: /Users/yilunli/Desktop/moar_experiments/moar_experiments/reproduce_moar/cuad/moar_result/cuad_gpt-4o-mini.yaml
+                Error Message: Failed to execute plan /Users/yilunli/Desktop/moar_experiments/moar_experiments/reproduce_moar/cuad/moar_result/cuad_gpt-4o-mini.yaml: slice(0, 1, None)
+                ================================================================================
+                
+                ================================================================================
+                Timestamp: 2026-03-25 00:25:06
+                Node ID: 2
+                Parent ID: 0
+                Latest Action: None
+                Failure Type: execution_failure
+                YAML Path: /Users/yilunli/Desktop/moar_experiments/moar_experiments/reproduce_moar/cuad/moar_result/cuad_gpt-4o.yaml
+                Error Message: slice(0, 1, None)
+                ================================================================================
+                
+                ================================================================================
+                Timestamp: 2026-03-25 00:25:06
+                Node ID: 2
+                Parent ID: 0
+                Latest Action: None
+                Failure Type: simulation_execution_failure
+                YAML Path: /Users/yilunli/Desktop/moar_experiments/moar_experiments/reproduce_moar/cuad/moar_result/cuad_gpt-4o.yaml
+                Error Message: Failed to execute plan /Users/yilunli/Desktop/moar_experiments/moar_experiments/reproduce_moar/cuad/moar_result/cuad_gpt-4o.yaml: slice(0, 1, None)
+                ================================================================================
+                
+                ================================================================================
+                Timestamp: 2026-03-25 00:25:06
+                Node ID: 3
+                Parent ID: 0
+                Latest Action: None
+                Failure Type: execution_failure
+                YAML Path: /Users/yilunli/Desktop/moar_experiments/moar_experiments/reproduce_moar/cuad/moar_result/cuad_gpt-5.1-mini.yaml
+                Error Message: slice(0, 1, None)
+                ================================================================================
+                
+                ================================================================================
+                Timestamp: 2026-03-25 00:25:06
+                Node ID: 3
+                Parent ID: 0
+                Latest Action: None
+                Failure Type: simulation_execution_failure
+                YAML Path: /Users/yilunli/Desktop/moar_experiments/moar_experiments/reproduce_moar/cuad/moar_result/cuad_gpt-5.1-mini.yaml
+                Error Message: Failed to execute plan /Users/yilunli/Desktop/moar_experiments/moar_experiments/reproduce_moar/cuad/moar_result/cuad_gpt-5.1-mini.yaml: slice(0, 1, None)
+                ================================================================================
+                
+                ================================================================================
+                Timestamp: 2026-03-25 00:25:06
+                Node ID: 4
+                Parent ID: 0
+                Latest Action: None
+                Failure Type: execution_failure
+                YAML Path: /Users/yilunli/Desktop/moar_experiments/moar_experiments/reproduce_moar/cuad/moar_result/cuad_gpt-5.1.yaml
+                Error Message: slice(0, 1, None)
+                ================================================================================
+                
+                ================================================================================
+                Timestamp: 2026-03-25 00:25:06
+                Node ID: 4
+                Parent ID: 0
+                Latest Action: None
+                Failure Type: simulation_execution_failure
+                YAML Path: /Users/yilunli/Desktop/moar_experiments/moar_experiments/reproduce_moar/cuad/moar_result/cuad_gpt-5.1.yaml
+                Error Message: Failed to execute plan /Users/yilunli/Desktop/moar_experiments/moar_experiments/reproduce_moar/cuad/moar_result/cuad_gpt-5.1.yaml: slice(0, 1, None)
+                ================================================================================
+                
+                ================================================================================
+                Timestamp: 2026-03-25 00:26:05
+                Node ID: 1
+                Parent ID: 0
+                Latest Action: None
+                Failure Type: execution_failure
+                YAML Path: /Users/yilunli/Desktop/moar_experiments/moar_experiments/reproduce_moar/cuad/moar_result/cuad_gpt-4o-mini.yaml
+                Error Message: slice(0, 1, None)
+                ================================================================================
+                
+                ================================================================================
+                Timestamp: 2026-03-25 00:26:05
+                Node ID: 1
+                Parent ID: 0
+                Latest Action: None
+                Failure Type: simulation_execution_failure
+                YAML Path: /Users/yilunli/Desktop/moar_experiments/moar_experiments/reproduce_moar/cuad/moar_result/cuad_gpt-4o-mini.yaml
+                Error Message: Failed to execute plan /Users/yilunli/Desktop/moar_experiments/moar_experiments/reproduce_moar/cuad/moar_result/cuad_gpt-4o-mini.yaml: slice(0, 1, None)
+                ================================================================================
+                
+                ================================================================================
+                Timestamp: 2026-03-25 00:26:06
+                Node ID: 2
+                Parent ID: 0
+                Latest Action: None
+                Failure Type: execution_failure
+                YAML Path: /Users/yilunli/Desktop/moar_experiments/moar_experiments/reproduce_moar/cuad/moar_result/cuad_gpt-4o.yaml
+                Error Message: slice(0, 1, None)
+                ================================================================================
+                
+                ================================================================================
+                Timestamp: 2026-03-25 00:26:06
+                Node ID: 2
+                Parent ID: 0
+                Latest Action: None
+                Failure Type: simulation_execution_failure
+                YAML Path: /Users/yilunli/Desktop/moar_experiments/moar_experiments/reproduce_moar/cuad/moar_result/cuad_gpt-4o.yaml
+                Error Message: Failed to execute plan /Users/yilunli/Desktop/moar_experiments/moar_experiments/reproduce_moar/cuad/moar_result/cuad_gpt-4o.yaml: slice(0, 1, None)
+                ================================================================================
+                
+                ================================================================================
+                Timestamp: 2026-03-25 00:26:06
+                Node ID: 3
+                Parent ID: 0
+                Latest Action: None
+                Failure Type: execution_failure
+                YAML Path: /Users/yilunli/Desktop/moar_experiments/moar_experiments/reproduce_moar/cuad/moar_result/cuad_gpt-5.1-mini.yaml
+                Error Message: slice(0, 1, None)
+                ================================================================================
+                
+                ================================================================================
+                Timestamp: 2026-03-25 00:26:06
+                Node ID: 3
+                Parent ID: 0
+                Latest Action: None
+                Failure Type: simulation_execution_failure
+                YAML Path: /Users/yilunli/Desktop/moar_experiments/moar_experiments/reproduce_moar/cuad/moar_result/cuad_gpt-5.1-mini.yaml
+                Error Message: Failed to execute plan /Users/yilunli/Desktop/moar_experiments/moar_experiments/reproduce_moar/cuad/moar_result/cuad_gpt-5.1-mini.yaml: slice(0, 1, None)
+                ================================================================================
+                
+                ================================================================================
+                Timestamp: 2026-03-25 00:26:06
+                Node ID: 4
+                Parent ID: 0
+                Latest Action: None
+                Failure Type: execution_failure
+                YAML Path: /Users/yilunli/Desktop/moar_experiments/moar_experiments/reproduce_moar/cuad/moar_result/cuad_gpt-5.1.yaml
+                Error Message: slice(0, 1, None)
+                ================================================================================
+                
+                ================================================================================
+                Timestamp: 2026-03-25 00:26:06
+                Node ID: 4
+                Parent ID: 0
+                Latest Action: None
+                Failure Type: simulation_execution_failure
+                YAML Path: /Users/yilunli/Desktop/moar_experiments/moar_experiments/reproduce_moar/cuad/moar_result/cuad_gpt-5.1.yaml
+                Error Message: Failed to execute plan /Users/yilunli/Desktop/moar_experiments/moar_experiments/reproduce_moar/cuad/moar_result/cuad_gpt-5.1.yaml: slice(0, 1, None)
+                ================================================================================
+                
+                ================================================================================
+                Timestamp: 2026-03-25 02:26:30
+                Node ID: 1
+                Parent ID: 0
+                Latest Action: None
+                Failure Type: execution_failure
+                YAML Path: /Users/yilunli/Desktop/moar_experiments/moar_experiments/reproduce_moar/cuad/moar_result/cuad_gpt-4o-mini.yaml
+                Error Message: 'dict object' has no attribute 'paragraphs'
+Your prompt can include the following variables: ['input', 'retrieval_context']
+For dictionary variables, you can access keys using dot notation (e.g. input.key).
+Available keys for each document: {'input': ['context']}
+
+                ================================================================================
+                
+                ================================================================================
+                Timestamp: 2026-03-25 02:26:30
+                Node ID: 1
+                Parent ID: 0
+                Latest Action: None
+                Failure Type: simulation_execution_failure
+                YAML Path: /Users/yilunli/Desktop/moar_experiments/moar_experiments/reproduce_moar/cuad/moar_result/cuad_gpt-4o-mini.yaml
+                Error Message: Failed to execute plan /Users/yilunli/Desktop/moar_experiments/moar_experiments/reproduce_moar/cuad/moar_result/cuad_gpt-4o-mini.yaml: 'dict object' has no attribute 'paragraphs'
+Your prompt can include the following variables: ['input', 'retrieval_context']
+For dictionary variables, you can access keys using dot notation (e.g. input.key).
+Available keys for each document: {'input': ['context']}
+
+                ================================================================================
+                
+                ================================================================================
+                Timestamp: 2026-03-25 02:26:30
+                Node ID: 2
+                Parent ID: 0
+                Latest Action: None
+                Failure Type: execution_failure
+                YAML Path: /Users/yilunli/Desktop/moar_experiments/moar_experiments/reproduce_moar/cuad/moar_result/cuad_gpt-4o.yaml
+                Error Message: 'dict object' has no attribute 'paragraphs'
+Your prompt can include the following variables: ['input', 'retrieval_context']
+For dictionary variables, you can access keys using dot notation (e.g. input.key).
+Available keys for each document: {'input': ['context']}
+
+                ================================================================================
+                
+                ================================================================================
+                Timestamp: 2026-03-25 02:26:30
+                Node ID: 2
+                Parent ID: 0
+                Latest Action: None
+                Failure Type: simulation_execution_failure
+                YAML Path: /Users/yilunli/Desktop/moar_experiments/moar_experiments/reproduce_moar/cuad/moar_result/cuad_gpt-4o.yaml
+                Error Message: Failed to execute plan /Users/yilunli/Desktop/moar_experiments/moar_experiments/reproduce_moar/cuad/moar_result/cuad_gpt-4o.yaml: 'dict object' has no attribute 'paragraphs'
+Your prompt can include the following variables: ['input', 'retrieval_context']
+For dictionary variables, you can access keys using dot notation (e.g. input.key).
+Available keys for each document: {'input': ['context']}
+
+                ================================================================================
+                
+                ================================================================================
+                Timestamp: 2026-03-25 02:26:30
+                Node ID: 3
+                Parent ID: 0
+                Latest Action: None
+                Failure Type: execution_failure
+                YAML Path: /Users/yilunli/Desktop/moar_experiments/moar_experiments/reproduce_moar/cuad/moar_result/cuad_gpt-5.1-mini.yaml
+                Error Message: 'dict object' has no attribute 'paragraphs'
+Your prompt can include the following variables: ['input', 'retrieval_context']
+For dictionary variables, you can access keys using dot notation (e.g. input.key).
+Available keys for each document: {'input': ['context']}
+
+                ================================================================================
+                
+                ================================================================================
+                Timestamp: 2026-03-25 02:26:30
+                Node ID: 3
+                Parent ID: 0
+                Latest Action: None
+                Failure Type: simulation_execution_failure
+                YAML Path: /Users/yilunli/Desktop/moar_experiments/moar_experiments/reproduce_moar/cuad/moar_result/cuad_gpt-5.1-mini.yaml
+                Error Message: Failed to execute plan /Users/yilunli/Desktop/moar_experiments/moar_experiments/reproduce_moar/cuad/moar_result/cuad_gpt-5.1-mini.yaml: 'dict object' has no attribute 'paragraphs'
+Your prompt can include the following variables: ['input', 'retrieval_context']
+For dictionary variables, you can access keys using dot notation (e.g. input.key).
+Available keys for each document: {'input': ['context']}
+
+                ================================================================================
+                
+                ================================================================================
+                Timestamp: 2026-03-25 02:26:31
+                Node ID: 4
+                Parent ID: 0
+                Latest Action: None
+                Failure Type: execution_failure
+                YAML Path: /Users/yilunli/Desktop/moar_experiments/moar_experiments/reproduce_moar/cuad/moar_result/cuad_gpt-5.1.yaml
+                Error Message: 'dict object' has no attribute 'paragraphs'
+Your prompt can include the following variables: ['input', 'retrieval_context']
+For dictionary variables, you can access keys using dot notation (e.g. input.key).
+Available keys for each document: {'input': ['context']}
+
+                ================================================================================
+                
+                ================================================================================
+                Timestamp: 2026-03-25 02:26:31
+                Node ID: 4
+                Parent ID: 0
+                Latest Action: None
+                Failure Type: simulation_execution_failure
+                YAML Path: /Users/yilunli/Desktop/moar_experiments/moar_experiments/reproduce_moar/cuad/moar_result/cuad_gpt-5.1.yaml
+                Error Message: Failed to execute plan /Users/yilunli/Desktop/moar_experiments/moar_experiments/reproduce_moar/cuad/moar_result/cuad_gpt-5.1.yaml: 'dict object' has no attribute 'paragraphs'
+Your prompt can include the following variables: ['input', 'retrieval_context']
+For dictionary variables, you can access keys using dot notation (e.g. input.key).
+Available keys for each document: {'input': ['context']}
+
+                ================================================================================
+                
+                ================================================================================
+                Timestamp: 2026-03-25 02:31:59
+                Node ID: 1
+                Parent ID: 0
+                Latest Action: None
+                Failure Type: evaluation_failure
+                YAML Path: /Users/yilunli/Desktop/moar_experiments/moar_experiments/reproduce_moar/cuad/moar_result/cuad_gpt-4o-mini.yaml
+                Error Message: 'name'
+                ================================================================================
+                
+                ================================================================================
+                Timestamp: 2026-03-25 03:26:18
+                Node ID: 1
+                Parent ID: 0
+                Latest Action: None
+                Failure Type: evaluation_failure
+                YAML Path: /Users/yilunli/Desktop/moar_experiments/moar_experiments/reproduce_moar/cuad/moar_result/cuad_gpt-4o-mini.yaml
+                Error Message: 'name'
+                ================================================================================
+                
+                ================================================================================
+                Timestamp: 2026-03-25 03:53:25
+                Node ID: 1
+                Parent ID: 0
+                Latest Action: None
+                Failure Type: evaluation_failure
+                YAML Path: /Users/yilunli/Desktop/moar_experiments/moar_experiments/reproduce_moar/cuad/moar_result/cuad_gpt-4o-mini.yaml
+                Error Message: 'name'
+                ================================================================================
+                
+                ================================================================================
+                Timestamp: 2026-03-25 04:43:16
+                Node ID: 1
+                Parent ID: 0
+                Latest Action: None
+                Failure Type: evaluation_failure
+                YAML Path: /Users/yilunli/Desktop/moar_experiments/moar_experiments/reproduce_moar/cuad/moar_result/cuad_gpt-4o-mini.yaml
+                Error Message: 'name'
+                ================================================================================
+                
+                ================================================================================
+                Timestamp: 2026-03-25 05:03:25
+                Node ID: 1
+                Parent ID: 0
+                Latest Action: None
+                Failure Type: evaluation_failure
+                YAML Path: /Users/yilunli/Desktop/moar_experiments/moar_experiments/reproduce_moar/cuad/moar_result/cuad_gpt-4o-mini.yaml
+                Error Message: 'name'
+                ================================================================================
+                

@@ -1,0 +1,33 @@
+import pandas as pd
+from pathlib import Path
+
+csv_path = Path("/Users/yilunli/Desktop/moar_experiments/moar_experiments/data/category_descriptions.csv")
+out_path = Path("/Users/yilunli/Desktop/moar_experiments/moar_experiments/data/category_descriptions.txt")
+
+df = pd.read_csv(csv_path)
+
+# if the header has "Category (incl. context and answer)" exactly:
+category_col = "Category (incl. context and answer)"
+description_col = "Description"
+
+if category_col not in df.columns or description_col not in df.columns:
+    raise ValueError(f"Columns missing: {category_col} and/or {description_col}")
+
+# build lines like "Document Name: The name of the contract"
+lines = []
+for i, row in df.iterrows():
+    # strip extra text if you want just the pure category label
+    cat = row[category_col]
+    if isinstance(cat, str) and cat.strip().startswith("Category:"):
+        cat = cat.strip().split("Category:", 1)[1].strip()
+    desc = str(row[description_col]).strip().split("Description:", 1)[1].strip()
+    lines.append(f"{i + 1}. {cat}: {desc}\n")
+
+# join as one string
+result = "\n".join(lines)
+
+# save result
+out_path.write_text(result, encoding="utf-8")
+
+print("Converted", len(lines), "rows to string; saved to", out_path)
+print(result[:1000])  # preview
