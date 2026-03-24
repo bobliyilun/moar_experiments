@@ -1,0 +1,161 @@
+
+                ================================================================================
+                Timestamp: 2026-03-24 23:43:19
+                Node ID: 1
+                Parent ID: 0
+                Latest Action: None
+                Failure Type: execution_failure
+                YAML Path: /Users/yilunli/Desktop/moar_experiments/moar_experiments/reproduce_moar/cuad/moar_result/cuad_gpt-4o-mini.yaml
+                Error Message: "Split key 'document' not found in item"
+                ================================================================================
+                
+                ================================================================================
+                Timestamp: 2026-03-24 23:43:19
+                Node ID: 1
+                Parent ID: 0
+                Latest Action: None
+                Failure Type: simulation_execution_failure
+                YAML Path: /Users/yilunli/Desktop/moar_experiments/moar_experiments/reproduce_moar/cuad/moar_result/cuad_gpt-4o-mini.yaml
+                Error Message: Failed to execute plan /Users/yilunli/Desktop/moar_experiments/moar_experiments/reproduce_moar/cuad/moar_result/cuad_gpt-4o-mini.yaml: "Split key 'document' not found in item"
+                ================================================================================
+                
+                ================================================================================
+                Timestamp: 2026-03-24 23:43:19
+                Node ID: 2
+                Parent ID: 0
+                Latest Action: None
+                Failure Type: execution_failure
+                YAML Path: /Users/yilunli/Desktop/moar_experiments/moar_experiments/reproduce_moar/cuad/moar_result/cuad_gpt-4o.yaml
+                Error Message: "Split key 'document' not found in item"
+                ================================================================================
+                
+                ================================================================================
+                Timestamp: 2026-03-24 23:43:19
+                Node ID: 2
+                Parent ID: 0
+                Latest Action: None
+                Failure Type: simulation_execution_failure
+                YAML Path: /Users/yilunli/Desktop/moar_experiments/moar_experiments/reproduce_moar/cuad/moar_result/cuad_gpt-4o.yaml
+                Error Message: Failed to execute plan /Users/yilunli/Desktop/moar_experiments/moar_experiments/reproduce_moar/cuad/moar_result/cuad_gpt-4o.yaml: "Split key 'document' not found in item"
+                ================================================================================
+                
+                ================================================================================
+                Timestamp: 2026-03-24 23:43:20
+                Node ID: 3
+                Parent ID: 0
+                Latest Action: None
+                Failure Type: execution_failure
+                YAML Path: /Users/yilunli/Desktop/moar_experiments/moar_experiments/reproduce_moar/cuad/moar_result/cuad_gpt-5.1-mini.yaml
+                Error Message: "Split key 'document' not found in item"
+                ================================================================================
+                
+                ================================================================================
+                Timestamp: 2026-03-24 23:43:20
+                Node ID: 3
+                Parent ID: 0
+                Latest Action: None
+                Failure Type: simulation_execution_failure
+                YAML Path: /Users/yilunli/Desktop/moar_experiments/moar_experiments/reproduce_moar/cuad/moar_result/cuad_gpt-5.1-mini.yaml
+                Error Message: Failed to execute plan /Users/yilunli/Desktop/moar_experiments/moar_experiments/reproduce_moar/cuad/moar_result/cuad_gpt-5.1-mini.yaml: "Split key 'document' not found in item"
+                ================================================================================
+                
+                ================================================================================
+                Timestamp: 2026-03-24 23:43:20
+                Node ID: 4
+                Parent ID: 0
+                Latest Action: None
+                Failure Type: execution_failure
+                YAML Path: /Users/yilunli/Desktop/moar_experiments/moar_experiments/reproduce_moar/cuad/moar_result/cuad_gpt-5.1.yaml
+                Error Message: "Split key 'document' not found in item"
+                ================================================================================
+                
+                ================================================================================
+                Timestamp: 2026-03-24 23:43:20
+                Node ID: 4
+                Parent ID: 0
+                Latest Action: None
+                Failure Type: simulation_execution_failure
+                YAML Path: /Users/yilunli/Desktop/moar_experiments/moar_experiments/reproduce_moar/cuad/moar_result/cuad_gpt-5.1.yaml
+                Error Message: Failed to execute plan /Users/yilunli/Desktop/moar_experiments/moar_experiments/reproduce_moar/cuad/moar_result/cuad_gpt-5.1.yaml: "Split key 'document' not found in item"
+                ================================================================================
+                
+                ================================================================================
+                Timestamp: 2026-03-25 00:22:04
+                Node ID: 1
+                Parent ID: 0
+                Latest Action: None
+                Failure Type: execution_failure
+                YAML Path: /Users/yilunli/Desktop/moar_experiments/moar_experiments/reproduce_moar/cuad/moar_result/cuad_gpt-4o-mini.yaml
+                Error Message: slice(0, 1, None)
+                ================================================================================
+                
+                ================================================================================
+                Timestamp: 2026-03-25 00:22:04
+                Node ID: 1
+                Parent ID: 0
+                Latest Action: None
+                Failure Type: simulation_execution_failure
+                YAML Path: /Users/yilunli/Desktop/moar_experiments/moar_experiments/reproduce_moar/cuad/moar_result/cuad_gpt-4o-mini.yaml
+                Error Message: Failed to execute plan /Users/yilunli/Desktop/moar_experiments/moar_experiments/reproduce_moar/cuad/moar_result/cuad_gpt-4o-mini.yaml: slice(0, 1, None)
+                ================================================================================
+                
+                ================================================================================
+                Timestamp: 2026-03-25 00:22:04
+                Node ID: 2
+                Parent ID: 0
+                Latest Action: None
+                Failure Type: execution_failure
+                YAML Path: /Users/yilunli/Desktop/moar_experiments/moar_experiments/reproduce_moar/cuad/moar_result/cuad_gpt-4o.yaml
+                Error Message: slice(0, 1, None)
+                ================================================================================
+                
+                ================================================================================
+                Timestamp: 2026-03-25 00:22:04
+                Node ID: 2
+                Parent ID: 0
+                Latest Action: None
+                Failure Type: simulation_execution_failure
+                YAML Path: /Users/yilunli/Desktop/moar_experiments/moar_experiments/reproduce_moar/cuad/moar_result/cuad_gpt-4o.yaml
+                Error Message: Failed to execute plan /Users/yilunli/Desktop/moar_experiments/moar_experiments/reproduce_moar/cuad/moar_result/cuad_gpt-4o.yaml: slice(0, 1, None)
+                ================================================================================
+                
+                ================================================================================
+                Timestamp: 2026-03-25 00:22:04
+                Node ID: 3
+                Parent ID: 0
+                Latest Action: None
+                Failure Type: execution_failure
+                YAML Path: /Users/yilunli/Desktop/moar_experiments/moar_experiments/reproduce_moar/cuad/moar_result/cuad_gpt-5.1-mini.yaml
+                Error Message: slice(0, 1, None)
+                ================================================================================
+                
+                ================================================================================
+                Timestamp: 2026-03-25 00:22:04
+                Node ID: 3
+                Parent ID: 0
+                Latest Action: None
+                Failure Type: simulation_execution_failure
+                YAML Path: /Users/yilunli/Desktop/moar_experiments/moar_experiments/reproduce_moar/cuad/moar_result/cuad_gpt-5.1-mini.yaml
+                Error Message: Failed to execute plan /Users/yilunli/Desktop/moar_experiments/moar_experiments/reproduce_moar/cuad/moar_result/cuad_gpt-5.1-mini.yaml: slice(0, 1, None)
+                ================================================================================
+                
+                ================================================================================
+                Timestamp: 2026-03-25 00:22:04
+                Node ID: 4
+                Parent ID: 0
+                Latest Action: None
+                Failure Type: execution_failure
+                YAML Path: /Users/yilunli/Desktop/moar_experiments/moar_experiments/reproduce_moar/cuad/moar_result/cuad_gpt-5.1.yaml
+                Error Message: slice(0, 1, None)
+                ================================================================================
+                
+                ================================================================================
+                Timestamp: 2026-03-25 00:22:04
+                Node ID: 4
+                Parent ID: 0
+                Latest Action: None
+                Failure Type: simulation_execution_failure
+                YAML Path: /Users/yilunli/Desktop/moar_experiments/moar_experiments/reproduce_moar/cuad/moar_result/cuad_gpt-5.1.yaml
+                Error Message: Failed to execute plan /Users/yilunli/Desktop/moar_experiments/moar_experiments/reproduce_moar/cuad/moar_result/cuad_gpt-5.1.yaml: slice(0, 1, None)
+                ================================================================================
+                
