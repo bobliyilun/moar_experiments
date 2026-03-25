@@ -481,3 +481,571 @@ Available keys for each document: {'input': ['context']}
                 Error Message: 'name'
                 ================================================================================
                 
+                ================================================================================
+                Timestamp: 2026-03-25 18:40:54
+                Node ID: 1
+                Parent ID: 0
+                Latest Action: None
+                Failure Type: execution_failure
+                YAML Path: /Users/yilunli/Desktop/moar_experiments/moar_experiments/reproduce_moar/cuad/moar_result/cuad_gpt-5.1-nano.yaml
+                Error Message: Note: You may also need to prefix your model name with the provider, e.g. 'openai/gpt-4o-mini' or 'gemini/gemini-1.5-flash' to conform to LiteLLM API standards. Original error: litellm.BadRequestError: LLM Provider NOT provided. Pass in the LLM provider you are trying to call. You passed model=gpt-5.1-nano
+ Pass model as E.g. For 'Huggingface' inference endpoints pass in `completion(model='huggingface/starcoder',..)` Learn more: https://docs.litellm.ai/docs/providers
+                ================================================================================
+                
+                ================================================================================
+                Timestamp: 2026-03-25 18:40:54
+                Node ID: 1
+                Parent ID: 0
+                Latest Action: None
+                Failure Type: simulation_execution_failure
+                YAML Path: /Users/yilunli/Desktop/moar_experiments/moar_experiments/reproduce_moar/cuad/moar_result/cuad_gpt-5.1-nano.yaml
+                Error Message: Failed to execute plan /Users/yilunli/Desktop/moar_experiments/moar_experiments/reproduce_moar/cuad/moar_result/cuad_gpt-5.1-nano.yaml: Note: You may also need to prefix your model name with the provider, e.g. 'openai/gpt-4o-mini' or 'gemini/gemini-1.5-flash' to conform to LiteLLM API standards. Original error: litellm.BadRequestError: LLM Provider NOT provided. Pass in the LLM provider you are trying to call. You passed model=gpt-5.1-nano
+ Pass model as E.g. For 'Huggingface' inference endpoints pass in `completion(model='huggingface/starcoder',..)` Learn more: https://docs.litellm.ai/docs/providers
+                ================================================================================
+                
+                ================================================================================
+                Timestamp: 2026-03-25 18:40:54
+                Node ID: 2
+                Parent ID: 0
+                Latest Action: None
+                Failure Type: execution_failure
+                YAML Path: /Users/yilunli/Desktop/moar_experiments/moar_experiments/reproduce_moar/cuad/moar_result/cuad_gpt-5.1-mini.yaml
+                Error Message: Note: You may also need to prefix your model name with the provider, e.g. 'openai/gpt-4o-mini' or 'gemini/gemini-1.5-flash' to conform to LiteLLM API standards. Original error: litellm.BadRequestError: LLM Provider NOT provided. Pass in the LLM provider you are trying to call. You passed model=gpt-5.1-mini
+ Pass model as E.g. For 'Huggingface' inference endpoints pass in `completion(model='huggingface/starcoder',..)` Learn more: https://docs.litellm.ai/docs/providers
+                ================================================================================
+                
+                ================================================================================
+                Timestamp: 2026-03-25 18:40:54
+                Node ID: 2
+                Parent ID: 0
+                Latest Action: None
+                Failure Type: simulation_execution_failure
+                YAML Path: /Users/yilunli/Desktop/moar_experiments/moar_experiments/reproduce_moar/cuad/moar_result/cuad_gpt-5.1-mini.yaml
+                Error Message: Failed to execute plan /Users/yilunli/Desktop/moar_experiments/moar_experiments/reproduce_moar/cuad/moar_result/cuad_gpt-5.1-mini.yaml: Note: You may also need to prefix your model name with the provider, e.g. 'openai/gpt-4o-mini' or 'gemini/gemini-1.5-flash' to conform to LiteLLM API standards. Original error: litellm.BadRequestError: LLM Provider NOT provided. Pass in the LLM provider you are trying to call. You passed model=gpt-5.1-mini
+ Pass model as E.g. For 'Huggingface' inference endpoints pass in `completion(model='huggingface/starcoder',..)` Learn more: https://docs.litellm.ai/docs/providers
+                ================================================================================
+                
+                ================================================================================
+                Timestamp: 2026-03-25 18:42:30
+                Node ID: 1
+                Parent ID: 0
+                Latest Action: None
+                Failure Type: execution_failure
+                YAML Path: /Users/yilunli/Desktop/moar_experiments/moar_experiments/reproduce_moar/cuad/moar_result/cuad_openai_gpt-5.1-nano.yaml
+                Error Message: litellm.UnsupportedParamsError: openai does not support parameters: ['tool_choice'], for model=gpt-5.1-nano. To drop these, set `litellm.drop_params=True` or for proxy:
+
+`litellm_settings:
+ drop_params: true`
+. 
+ If you want to use these params dynamically send allowed_openai_params=['tool_choice'] in your request.
+                ================================================================================
+                
+                ================================================================================
+                Timestamp: 2026-03-25 18:42:30
+                Node ID: 1
+                Parent ID: 0
+                Latest Action: None
+                Failure Type: simulation_execution_failure
+                YAML Path: /Users/yilunli/Desktop/moar_experiments/moar_experiments/reproduce_moar/cuad/moar_result/cuad_openai_gpt-5.1-nano.yaml
+                Error Message: Failed to execute plan /Users/yilunli/Desktop/moar_experiments/moar_experiments/reproduce_moar/cuad/moar_result/cuad_openai_gpt-5.1-nano.yaml: litellm.UnsupportedParamsError: openai does not support parameters: ['tool_choice'], for model=gpt-5.1-nano. To drop these, set `litellm.drop_params=True` or for proxy:
+
+`litellm_settings:
+ drop_params: true`
+. 
+ If you want to use these params dynamically send allowed_openai_params=['tool_choice'] in your request.
+                ================================================================================
+                
+                ================================================================================
+                Timestamp: 2026-03-25 18:42:30
+                Node ID: 2
+                Parent ID: 0
+                Latest Action: None
+                Failure Type: execution_failure
+                YAML Path: /Users/yilunli/Desktop/moar_experiments/moar_experiments/reproduce_moar/cuad/moar_result/cuad_openai_gpt-5.1-mini.yaml
+                Error Message: litellm.UnsupportedParamsError: openai does not support parameters: ['tool_choice'], for model=gpt-5.1-mini. To drop these, set `litellm.drop_params=True` or for proxy:
+
+`litellm_settings:
+ drop_params: true`
+. 
+ If you want to use these params dynamically send allowed_openai_params=['tool_choice'] in your request.
+                ================================================================================
+                
+                ================================================================================
+                Timestamp: 2026-03-25 18:42:30
+                Node ID: 2
+                Parent ID: 0
+                Latest Action: None
+                Failure Type: simulation_execution_failure
+                YAML Path: /Users/yilunli/Desktop/moar_experiments/moar_experiments/reproduce_moar/cuad/moar_result/cuad_openai_gpt-5.1-mini.yaml
+                Error Message: Failed to execute plan /Users/yilunli/Desktop/moar_experiments/moar_experiments/reproduce_moar/cuad/moar_result/cuad_openai_gpt-5.1-mini.yaml: litellm.UnsupportedParamsError: openai does not support parameters: ['tool_choice'], for model=gpt-5.1-mini. To drop these, set `litellm.drop_params=True` or for proxy:
+
+`litellm_settings:
+ drop_params: true`
+. 
+ If you want to use these params dynamically send allowed_openai_params=['tool_choice'] in your request.
+                ================================================================================
+                
+                ================================================================================
+                Timestamp: 2026-03-25 18:43:40
+                Node ID: 3
+                Parent ID: 0
+                Latest Action: None
+                Failure Type: evaluation_failure
+                YAML Path: /Users/yilunli/Desktop/moar_experiments/moar_experiments/reproduce_moar/cuad/moar_result/cuad_openai_gpt-5.1.yaml
+                Error Message: 'name'
+                ================================================================================
+                
+                ================================================================================
+                Timestamp: 2026-03-25 18:54:12
+                Node ID: 1
+                Parent ID: 0
+                Latest Action: None
+                Failure Type: execution_failure
+                YAML Path: /Users/yilunli/Desktop/moar_experiments/moar_experiments/reproduce_moar/cuad/moar_result/cuad_openai_gpt-5.1-nano.yaml
+                Error Message: litellm.APIError: AzureException APIError - Missing credentials. Please pass one of `api_key`, `azure_ad_token`, `azure_ad_token_provider`, or the `AZURE_OPENAI_API_KEY` or `AZURE_OPENAI_AD_TOKEN` environment variables.
+                ================================================================================
+                
+                ================================================================================
+                Timestamp: 2026-03-25 18:54:12
+                Node ID: 1
+                Parent ID: 0
+                Latest Action: None
+                Failure Type: simulation_execution_failure
+                YAML Path: /Users/yilunli/Desktop/moar_experiments/moar_experiments/reproduce_moar/cuad/moar_result/cuad_openai_gpt-5.1-nano.yaml
+                Error Message: Failed to execute plan /Users/yilunli/Desktop/moar_experiments/moar_experiments/reproduce_moar/cuad/moar_result/cuad_openai_gpt-5.1-nano.yaml: litellm.APIError: AzureException APIError - Missing credentials. Please pass one of `api_key`, `azure_ad_token`, `azure_ad_token_provider`, or the `AZURE_OPENAI_API_KEY` or `AZURE_OPENAI_AD_TOKEN` environment variables.
+                ================================================================================
+                
+                ================================================================================
+                Timestamp: 2026-03-25 18:54:12
+                Node ID: 2
+                Parent ID: 0
+                Latest Action: None
+                Failure Type: execution_failure
+                YAML Path: /Users/yilunli/Desktop/moar_experiments/moar_experiments/reproduce_moar/cuad/moar_result/cuad_openai_gpt-5.1-mini.yaml
+                Error Message: litellm.APIError: AzureException APIError - Missing credentials. Please pass one of `api_key`, `azure_ad_token`, `azure_ad_token_provider`, or the `AZURE_OPENAI_API_KEY` or `AZURE_OPENAI_AD_TOKEN` environment variables.
+                ================================================================================
+                
+                ================================================================================
+                Timestamp: 2026-03-25 18:54:12
+                Node ID: 2
+                Parent ID: 0
+                Latest Action: None
+                Failure Type: simulation_execution_failure
+                YAML Path: /Users/yilunli/Desktop/moar_experiments/moar_experiments/reproduce_moar/cuad/moar_result/cuad_openai_gpt-5.1-mini.yaml
+                Error Message: Failed to execute plan /Users/yilunli/Desktop/moar_experiments/moar_experiments/reproduce_moar/cuad/moar_result/cuad_openai_gpt-5.1-mini.yaml: litellm.APIError: AzureException APIError - Missing credentials. Please pass one of `api_key`, `azure_ad_token`, `azure_ad_token_provider`, or the `AZURE_OPENAI_API_KEY` or `AZURE_OPENAI_AD_TOKEN` environment variables.
+                ================================================================================
+                
+                ================================================================================
+                Timestamp: 2026-03-25 18:54:13
+                Node ID: 3
+                Parent ID: 0
+                Latest Action: None
+                Failure Type: execution_failure
+                YAML Path: /Users/yilunli/Desktop/moar_experiments/moar_experiments/reproduce_moar/cuad/moar_result/cuad_openai_gpt-5.1.yaml
+                Error Message: litellm.APIError: AzureException APIError - Missing credentials. Please pass one of `api_key`, `azure_ad_token`, `azure_ad_token_provider`, or the `AZURE_OPENAI_API_KEY` or `AZURE_OPENAI_AD_TOKEN` environment variables.
+                ================================================================================
+                
+                ================================================================================
+                Timestamp: 2026-03-25 18:54:13
+                Node ID: 3
+                Parent ID: 0
+                Latest Action: None
+                Failure Type: simulation_execution_failure
+                YAML Path: /Users/yilunli/Desktop/moar_experiments/moar_experiments/reproduce_moar/cuad/moar_result/cuad_openai_gpt-5.1.yaml
+                Error Message: Failed to execute plan /Users/yilunli/Desktop/moar_experiments/moar_experiments/reproduce_moar/cuad/moar_result/cuad_openai_gpt-5.1.yaml: litellm.APIError: AzureException APIError - Missing credentials. Please pass one of `api_key`, `azure_ad_token`, `azure_ad_token_provider`, or the `AZURE_OPENAI_API_KEY` or `AZURE_OPENAI_AD_TOKEN` environment variables.
+                ================================================================================
+                
+                ================================================================================
+                Timestamp: 2026-03-25 18:54:13
+                Node ID: 4
+                Parent ID: 0
+                Latest Action: None
+                Failure Type: execution_failure
+                YAML Path: /Users/yilunli/Desktop/moar_experiments/moar_experiments/reproduce_moar/cuad/moar_result/cuad_openai_gpt-4o.yaml
+                Error Message: litellm.APIError: AzureException APIError - Missing credentials. Please pass one of `api_key`, `azure_ad_token`, `azure_ad_token_provider`, or the `AZURE_OPENAI_API_KEY` or `AZURE_OPENAI_AD_TOKEN` environment variables.
+                ================================================================================
+                
+                ================================================================================
+                Timestamp: 2026-03-25 18:54:13
+                Node ID: 4
+                Parent ID: 0
+                Latest Action: None
+                Failure Type: simulation_execution_failure
+                YAML Path: /Users/yilunli/Desktop/moar_experiments/moar_experiments/reproduce_moar/cuad/moar_result/cuad_openai_gpt-4o.yaml
+                Error Message: Failed to execute plan /Users/yilunli/Desktop/moar_experiments/moar_experiments/reproduce_moar/cuad/moar_result/cuad_openai_gpt-4o.yaml: litellm.APIError: AzureException APIError - Missing credentials. Please pass one of `api_key`, `azure_ad_token`, `azure_ad_token_provider`, or the `AZURE_OPENAI_API_KEY` or `AZURE_OPENAI_AD_TOKEN` environment variables.
+                ================================================================================
+                
+                ================================================================================
+                Timestamp: 2026-03-25 18:54:13
+                Node ID: 5
+                Parent ID: 0
+                Latest Action: None
+                Failure Type: execution_failure
+                YAML Path: /Users/yilunli/Desktop/moar_experiments/moar_experiments/reproduce_moar/cuad/moar_result/cuad_openai_gpt-4o-mini.yaml
+                Error Message: litellm.APIError: AzureException APIError - Missing credentials. Please pass one of `api_key`, `azure_ad_token`, `azure_ad_token_provider`, or the `AZURE_OPENAI_API_KEY` or `AZURE_OPENAI_AD_TOKEN` environment variables.
+                ================================================================================
+                
+                ================================================================================
+                Timestamp: 2026-03-25 18:54:13
+                Node ID: 5
+                Parent ID: 0
+                Latest Action: None
+                Failure Type: simulation_execution_failure
+                YAML Path: /Users/yilunli/Desktop/moar_experiments/moar_experiments/reproduce_moar/cuad/moar_result/cuad_openai_gpt-4o-mini.yaml
+                Error Message: Failed to execute plan /Users/yilunli/Desktop/moar_experiments/moar_experiments/reproduce_moar/cuad/moar_result/cuad_openai_gpt-4o-mini.yaml: litellm.APIError: AzureException APIError - Missing credentials. Please pass one of `api_key`, `azure_ad_token`, `azure_ad_token_provider`, or the `AZURE_OPENAI_API_KEY` or `AZURE_OPENAI_AD_TOKEN` environment variables.
+                ================================================================================
+                
+                ================================================================================
+                Timestamp: 2026-03-25 23:00:21
+                Node ID: 1
+                Parent ID: 0
+                Latest Action: None
+                Failure Type: execution_failure
+                YAML Path: /Users/yilunli/Desktop/moar_experiments/moar_experiments/reproduce_moar/cuad/moar_result/cuad_openai_gpt-5.1-mini.yaml
+                Error Message: 'dict object' has no attribute 'document'
+Your prompt can include the following variables: ['input', 'retrieval_context']
+For dictionary variables, you can access keys using dot notation (e.g. input.key).
+Available keys for each document: {'input': ['context']}
+
+                ================================================================================
+                
+                ================================================================================
+                Timestamp: 2026-03-25 23:00:21
+                Node ID: 1
+                Parent ID: 0
+                Latest Action: None
+                Failure Type: simulation_execution_failure
+                YAML Path: /Users/yilunli/Desktop/moar_experiments/moar_experiments/reproduce_moar/cuad/moar_result/cuad_openai_gpt-5.1-mini.yaml
+                Error Message: Failed to execute plan /Users/yilunli/Desktop/moar_experiments/moar_experiments/reproduce_moar/cuad/moar_result/cuad_openai_gpt-5.1-mini.yaml: 'dict object' has no attribute 'document'
+Your prompt can include the following variables: ['input', 'retrieval_context']
+For dictionary variables, you can access keys using dot notation (e.g. input.key).
+Available keys for each document: {'input': ['context']}
+
+                ================================================================================
+                
+                ================================================================================
+                Timestamp: 2026-03-25 23:00:21
+                Node ID: 2
+                Parent ID: 0
+                Latest Action: None
+                Failure Type: execution_failure
+                YAML Path: /Users/yilunli/Desktop/moar_experiments/moar_experiments/reproduce_moar/cuad/moar_result/cuad_openai_gpt-4o-mini.yaml
+                Error Message: 'dict object' has no attribute 'document'
+Your prompt can include the following variables: ['input', 'retrieval_context']
+For dictionary variables, you can access keys using dot notation (e.g. input.key).
+Available keys for each document: {'input': ['context']}
+
+                ================================================================================
+                
+                ================================================================================
+                Timestamp: 2026-03-25 23:00:21
+                Node ID: 2
+                Parent ID: 0
+                Latest Action: None
+                Failure Type: simulation_execution_failure
+                YAML Path: /Users/yilunli/Desktop/moar_experiments/moar_experiments/reproduce_moar/cuad/moar_result/cuad_openai_gpt-4o-mini.yaml
+                Error Message: Failed to execute plan /Users/yilunli/Desktop/moar_experiments/moar_experiments/reproduce_moar/cuad/moar_result/cuad_openai_gpt-4o-mini.yaml: 'dict object' has no attribute 'document'
+Your prompt can include the following variables: ['input', 'retrieval_context']
+For dictionary variables, you can access keys using dot notation (e.g. input.key).
+Available keys for each document: {'input': ['context']}
+
+                ================================================================================
+                
+                ================================================================================
+                Timestamp: 2026-03-25 23:01:16
+                Node ID: 1
+                Parent ID: 0
+                Latest Action: None
+                Failure Type: execution_failure
+                YAML Path: /Users/yilunli/Desktop/moar_experiments/moar_experiments/reproduce_moar/cuad/moar_result/cuad_openai_gpt-5.1-mini.yaml
+                Error Message: 'dict object' has no attribute 'document'
+Your prompt can include the following variables: ['input', 'retrieval_context']
+For dictionary variables, you can access keys using dot notation (e.g. input.key).
+Available keys for each document: {'input': ['context']}
+
+                ================================================================================
+                
+                ================================================================================
+                Timestamp: 2026-03-25 23:01:16
+                Node ID: 1
+                Parent ID: 0
+                Latest Action: None
+                Failure Type: simulation_execution_failure
+                YAML Path: /Users/yilunli/Desktop/moar_experiments/moar_experiments/reproduce_moar/cuad/moar_result/cuad_openai_gpt-5.1-mini.yaml
+                Error Message: Failed to execute plan /Users/yilunli/Desktop/moar_experiments/moar_experiments/reproduce_moar/cuad/moar_result/cuad_openai_gpt-5.1-mini.yaml: 'dict object' has no attribute 'document'
+Your prompt can include the following variables: ['input', 'retrieval_context']
+For dictionary variables, you can access keys using dot notation (e.g. input.key).
+Available keys for each document: {'input': ['context']}
+
+                ================================================================================
+                
+                ================================================================================
+                Timestamp: 2026-03-25 23:01:16
+                Node ID: 2
+                Parent ID: 0
+                Latest Action: None
+                Failure Type: execution_failure
+                YAML Path: /Users/yilunli/Desktop/moar_experiments/moar_experiments/reproduce_moar/cuad/moar_result/cuad_openai_gpt-4o-mini.yaml
+                Error Message: 'dict object' has no attribute 'document'
+Your prompt can include the following variables: ['input', 'retrieval_context']
+For dictionary variables, you can access keys using dot notation (e.g. input.key).
+Available keys for each document: {'input': ['context']}
+
+                ================================================================================
+                
+                ================================================================================
+                Timestamp: 2026-03-25 23:01:16
+                Node ID: 2
+                Parent ID: 0
+                Latest Action: None
+                Failure Type: simulation_execution_failure
+                YAML Path: /Users/yilunli/Desktop/moar_experiments/moar_experiments/reproduce_moar/cuad/moar_result/cuad_openai_gpt-4o-mini.yaml
+                Error Message: Failed to execute plan /Users/yilunli/Desktop/moar_experiments/moar_experiments/reproduce_moar/cuad/moar_result/cuad_openai_gpt-4o-mini.yaml: 'dict object' has no attribute 'document'
+Your prompt can include the following variables: ['input', 'retrieval_context']
+For dictionary variables, you can access keys using dot notation (e.g. input.key).
+Available keys for each document: {'input': ['context']}
+
+                ================================================================================
+                
+                ================================================================================
+                Timestamp: 2026-03-25 23:02:12
+                Node ID: 1
+                Parent ID: 0
+                Latest Action: None
+                Failure Type: execution_failure
+                YAML Path: /Users/yilunli/Desktop/moar_experiments/moar_experiments/reproduce_moar/cuad/moar_result/cuad_openai_gpt-5.1-mini.yaml
+                Error Message: 'dict object' has no attribute 'document'
+Your prompt can include the following variables: ['input', 'retrieval_context']
+For dictionary variables, you can access keys using dot notation (e.g. input.key).
+Available keys for each document: {'input': ['context']}
+
+                ================================================================================
+                
+                ================================================================================
+                Timestamp: 2026-03-25 23:02:12
+                Node ID: 1
+                Parent ID: 0
+                Latest Action: None
+                Failure Type: simulation_execution_failure
+                YAML Path: /Users/yilunli/Desktop/moar_experiments/moar_experiments/reproduce_moar/cuad/moar_result/cuad_openai_gpt-5.1-mini.yaml
+                Error Message: Failed to execute plan /Users/yilunli/Desktop/moar_experiments/moar_experiments/reproduce_moar/cuad/moar_result/cuad_openai_gpt-5.1-mini.yaml: 'dict object' has no attribute 'document'
+Your prompt can include the following variables: ['input', 'retrieval_context']
+For dictionary variables, you can access keys using dot notation (e.g. input.key).
+Available keys for each document: {'input': ['context']}
+
+                ================================================================================
+                
+                ================================================================================
+                Timestamp: 2026-03-25 23:02:12
+                Node ID: 2
+                Parent ID: 0
+                Latest Action: None
+                Failure Type: execution_failure
+                YAML Path: /Users/yilunli/Desktop/moar_experiments/moar_experiments/reproduce_moar/cuad/moar_result/cuad_openai_gpt-4o-mini.yaml
+                Error Message: 'dict object' has no attribute 'document'
+Your prompt can include the following variables: ['input', 'retrieval_context']
+For dictionary variables, you can access keys using dot notation (e.g. input.key).
+Available keys for each document: {'input': ['context']}
+
+                ================================================================================
+                
+                ================================================================================
+                Timestamp: 2026-03-25 23:02:12
+                Node ID: 2
+                Parent ID: 0
+                Latest Action: None
+                Failure Type: simulation_execution_failure
+                YAML Path: /Users/yilunli/Desktop/moar_experiments/moar_experiments/reproduce_moar/cuad/moar_result/cuad_openai_gpt-4o-mini.yaml
+                Error Message: Failed to execute plan /Users/yilunli/Desktop/moar_experiments/moar_experiments/reproduce_moar/cuad/moar_result/cuad_openai_gpt-4o-mini.yaml: 'dict object' has no attribute 'document'
+Your prompt can include the following variables: ['input', 'retrieval_context']
+For dictionary variables, you can access keys using dot notation (e.g. input.key).
+Available keys for each document: {'input': ['context']}
+
+                ================================================================================
+                
+                ================================================================================
+                Timestamp: 2026-03-25 23:03:08
+                Node ID: 1
+                Parent ID: 0
+                Latest Action: None
+                Failure Type: execution_failure
+                YAML Path: /Users/yilunli/Desktop/moar_experiments/moar_experiments/reproduce_moar/cuad/moar_result/cuad_openai_gpt-5.1-mini.yaml
+                Error Message: 'dict object' has no attribute 'document'
+Your prompt can include the following variables: ['input', 'retrieval_context']
+For dictionary variables, you can access keys using dot notation (e.g. input.key).
+Available keys for each document: {'input': ['context']}
+
+                ================================================================================
+                
+                ================================================================================
+                Timestamp: 2026-03-25 23:03:08
+                Node ID: 1
+                Parent ID: 0
+                Latest Action: None
+                Failure Type: simulation_execution_failure
+                YAML Path: /Users/yilunli/Desktop/moar_experiments/moar_experiments/reproduce_moar/cuad/moar_result/cuad_openai_gpt-5.1-mini.yaml
+                Error Message: Failed to execute plan /Users/yilunli/Desktop/moar_experiments/moar_experiments/reproduce_moar/cuad/moar_result/cuad_openai_gpt-5.1-mini.yaml: 'dict object' has no attribute 'document'
+Your prompt can include the following variables: ['input', 'retrieval_context']
+For dictionary variables, you can access keys using dot notation (e.g. input.key).
+Available keys for each document: {'input': ['context']}
+
+                ================================================================================
+                
+                ================================================================================
+                Timestamp: 2026-03-25 23:03:08
+                Node ID: 2
+                Parent ID: 0
+                Latest Action: None
+                Failure Type: execution_failure
+                YAML Path: /Users/yilunli/Desktop/moar_experiments/moar_experiments/reproduce_moar/cuad/moar_result/cuad_openai_gpt-4o-mini.yaml
+                Error Message: 'dict object' has no attribute 'document'
+Your prompt can include the following variables: ['input', 'retrieval_context']
+For dictionary variables, you can access keys using dot notation (e.g. input.key).
+Available keys for each document: {'input': ['context']}
+
+                ================================================================================
+                
+                ================================================================================
+                Timestamp: 2026-03-25 23:03:08
+                Node ID: 2
+                Parent ID: 0
+                Latest Action: None
+                Failure Type: simulation_execution_failure
+                YAML Path: /Users/yilunli/Desktop/moar_experiments/moar_experiments/reproduce_moar/cuad/moar_result/cuad_openai_gpt-4o-mini.yaml
+                Error Message: Failed to execute plan /Users/yilunli/Desktop/moar_experiments/moar_experiments/reproduce_moar/cuad/moar_result/cuad_openai_gpt-4o-mini.yaml: 'dict object' has no attribute 'document'
+Your prompt can include the following variables: ['input', 'retrieval_context']
+For dictionary variables, you can access keys using dot notation (e.g. input.key).
+Available keys for each document: {'input': ['context']}
+
+                ================================================================================
+                
+                ================================================================================
+                Timestamp: 2026-03-25 23:39:01
+                Node ID: 1
+                Parent ID: 0
+                Latest Action: None
+                Failure Type: execution_failure
+                YAML Path: /Users/yilunli/Desktop/moar_experiments/moar_experiments/reproduce_moar/cuad/moar_result/cuad_openai_gpt-5.1-mini.yaml
+                Error Message: litellm.UnsupportedParamsError: openai does not support parameters: ['tool_choice'], for model=gpt-5.1-mini. To drop these, set `litellm.drop_params=True` or for proxy:
+
+`litellm_settings:
+ drop_params: true`
+. 
+ If you want to use these params dynamically send allowed_openai_params=['tool_choice'] in your request.
+                ================================================================================
+                
+                ================================================================================
+                Timestamp: 2026-03-25 23:39:01
+                Node ID: 1
+                Parent ID: 0
+                Latest Action: None
+                Failure Type: simulation_execution_failure
+                YAML Path: /Users/yilunli/Desktop/moar_experiments/moar_experiments/reproduce_moar/cuad/moar_result/cuad_openai_gpt-5.1-mini.yaml
+                Error Message: Failed to execute plan /Users/yilunli/Desktop/moar_experiments/moar_experiments/reproduce_moar/cuad/moar_result/cuad_openai_gpt-5.1-mini.yaml: litellm.UnsupportedParamsError: openai does not support parameters: ['tool_choice'], for model=gpt-5.1-mini. To drop these, set `litellm.drop_params=True` or for proxy:
+
+`litellm_settings:
+ drop_params: true`
+. 
+ If you want to use these params dynamically send allowed_openai_params=['tool_choice'] in your request.
+                ================================================================================
+                
+                ================================================================================
+                Timestamp: 2026-03-25 23:39:01
+                Node ID: 2
+                Parent ID: 0
+                Latest Action: None
+                Failure Type: evaluation_failure
+                YAML Path: /Users/yilunli/Desktop/moar_experiments/moar_experiments/reproduce_moar/cuad/moar_result/cuad_openai_gpt-4o-mini.yaml
+                Error Message: 'name'
+                ================================================================================
+                
+                ================================================================================
+                Timestamp: 2026-03-25 23:42:52
+                Node ID: 1
+                Parent ID: 0
+                Latest Action: None
+                Failure Type: execution_failure
+                YAML Path: /Users/yilunli/Desktop/moar_experiments/moar_experiments/reproduce_moar/cuad/moar_result/cuad_openai_gpt-5.1-mini.yaml
+                Error Message: litellm.UnsupportedParamsError: openai does not support parameters: ['tool_choice'], for model=gpt-5.1-mini. To drop these, set `litellm.drop_params=True` or for proxy:
+
+`litellm_settings:
+ drop_params: true`
+. 
+ If you want to use these params dynamically send allowed_openai_params=['tool_choice'] in your request.
+                ================================================================================
+                
+                ================================================================================
+                Timestamp: 2026-03-25 23:42:52
+                Node ID: 1
+                Parent ID: 0
+                Latest Action: None
+                Failure Type: simulation_execution_failure
+                YAML Path: /Users/yilunli/Desktop/moar_experiments/moar_experiments/reproduce_moar/cuad/moar_result/cuad_openai_gpt-5.1-mini.yaml
+                Error Message: Failed to execute plan /Users/yilunli/Desktop/moar_experiments/moar_experiments/reproduce_moar/cuad/moar_result/cuad_openai_gpt-5.1-mini.yaml: litellm.UnsupportedParamsError: openai does not support parameters: ['tool_choice'], for model=gpt-5.1-mini. To drop these, set `litellm.drop_params=True` or for proxy:
+
+`litellm_settings:
+ drop_params: true`
+. 
+ If you want to use these params dynamically send allowed_openai_params=['tool_choice'] in your request.
+                ================================================================================
+                
+                ================================================================================
+                Timestamp: 2026-03-25 23:42:52
+                Node ID: 2
+                Parent ID: 0
+                Latest Action: None
+                Failure Type: evaluation_failure
+                YAML Path: /Users/yilunli/Desktop/moar_experiments/moar_experiments/reproduce_moar/cuad/moar_result/cuad_openai_gpt-4o-mini.yaml
+                Error Message: 'name'
+                ================================================================================
+                
+                ================================================================================
+                Timestamp: 2026-03-25 23:44:23
+                Node ID: 1
+                Parent ID: 0
+                Latest Action: None
+                Failure Type: execution_failure
+                YAML Path: /Users/yilunli/Desktop/moar_experiments/moar_experiments/reproduce_moar/cuad/moar_result/cuad_openai_gpt-5.1-mini.yaml
+                Error Message: litellm.UnsupportedParamsError: openai does not support parameters: ['tool_choice'], for model=gpt-5.1-mini. To drop these, set `litellm.drop_params=True` or for proxy:
+
+`litellm_settings:
+ drop_params: true`
+. 
+ If you want to use these params dynamically send allowed_openai_params=['tool_choice'] in your request.
+                ================================================================================
+                
+                ================================================================================
+                Timestamp: 2026-03-25 23:44:23
+                Node ID: 1
+                Parent ID: 0
+                Latest Action: None
+                Failure Type: simulation_execution_failure
+                YAML Path: /Users/yilunli/Desktop/moar_experiments/moar_experiments/reproduce_moar/cuad/moar_result/cuad_openai_gpt-5.1-mini.yaml
+                Error Message: Failed to execute plan /Users/yilunli/Desktop/moar_experiments/moar_experiments/reproduce_moar/cuad/moar_result/cuad_openai_gpt-5.1-mini.yaml: litellm.UnsupportedParamsError: openai does not support parameters: ['tool_choice'], for model=gpt-5.1-mini. To drop these, set `litellm.drop_params=True` or for proxy:
+
+`litellm_settings:
+ drop_params: true`
+. 
+ If you want to use these params dynamically send allowed_openai_params=['tool_choice'] in your request.
+                ================================================================================
+                
+                ================================================================================
+                Timestamp: 2026-03-25 23:44:24
+                Node ID: 2
+                Parent ID: 0
+                Latest Action: None
+                Failure Type: evaluation_failure
+                YAML Path: /Users/yilunli/Desktop/moar_experiments/moar_experiments/reproduce_moar/cuad/moar_result/cuad_openai_gpt-4o-mini.yaml
+                Error Message: 'name'
+                ================================================================================
+                
+                ================================================================================
+                Timestamp: 2026-03-25 23:47:15
+                Node ID: 1
+                Parent ID: 0
+                Latest Action: None
+                Failure Type: evaluation_failure
+                YAML Path: /Users/yilunli/Desktop/moar_experiments/moar_experiments/reproduce_moar/cuad/moar_result/cuad_openai_gpt-4o-mini.yaml
+                Error Message: 'name'
+                ================================================================================
+                

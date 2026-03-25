@@ -1,14 +1,29 @@
 datasets:
   context:
     type: file
-    path: /Users/yilunli/Desktop/moar_experiments/moar_experiments/data/test/cuad_20.json
+    path: /Users/yilunli/Desktop/moar_experiments/moar_experiments/data/train/cuad_50.json
 
-default_model: gpt-5-nano #gpt-4o-mini
+default_model: openai/gpt-4o-mini
 bypass_cache: false
-max_attempts: 8
-backoff: linear
-base_delay: 2
-max_delay: 10
+litellm_settings:
+  drop_params: true
+# max_attempts: 8
+# backoff: linear
+# base_delay: 2
+# max_delay: 10
+
+optimizer_config:
+  type: moar
+  save_dir: ./moar_result
+  available_models:  # LiteLLM model names - ensure API keys are set in your environment
+    - openai/gpt-4o-mini
+  evaluation_file: /Users/yilunli/Desktop/moar_experiments/moar_experiments/reproduce_moar/cuad/evaluate.py
+  metric_key: avg_f1  # This must match a key in your evaluation function's return dictionary
+  max_iterations: 40
+  model: openai/gpt-4o-mini
+  rewrite_agent_model: openai/gpt-4o-mini
+  ground_truth_file: /Users/yilunli/Desktop/moar_experiments/moar_experiments/data/CUAD-master_clauses.csv
+  bypass_cache: false
 
 operations: 
   - name: extract_relevant_clauses
@@ -110,29 +125,11 @@ pipeline:
   - name: contract_analysis
     input: context
     operations: 
-      # - summarize_contract_key_clauses
       - extract_relevant_clauses
   output:
     type: file
     path: /Users/yilunli/Desktop/moar_experiments/moar_experiments/reproduce_moar/cuad/cuad_results.json
     intermediate_dir: /Users/yilunli/Desktop/moar_experiments/moar_experiments/reproduce_moar/cuad/intermediate
 
-optimizer_config:
-  type: moar
-  save_dir: ./moar_result
-  available_models:  # LiteLLM model names - ensure API keys are set in your environment
-    - gpt-4o-mini
-    - gpt-4o
-    - gpt-5.1-mini
-    - gpt-5.1
-    - gpt-5-nano
-  evaluation_file: /Users/yilunli/Desktop/moar_experiments/moar_experiments/reproduce_moar/cuad/evaluate.py
-  metric_key: avg_f1  # This must match a key in your evaluation function's return dictionary
-  max_iterations: 20
-  model: gpt-5-nano
-  ground_truth_file: /Users/yilunli/Desktop/moar_experiments/moar_experiments/data/CUAD-master_clauses.csv
-  bypass_cache: false
-  max_attempts: 8
-  backoff: linear
-  base_delay: 2
-  max_delay: 10
+
+

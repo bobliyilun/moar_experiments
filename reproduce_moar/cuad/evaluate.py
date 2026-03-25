@@ -8,6 +8,21 @@ import random
 from typing import Any, Dict
 from docetl.utils_evaluation import register_eval
 
+
+def _normalize_filename(value: str) -> str:
+    return (
+        value.split("/")[-1]
+        .upper()
+        .rstrip(".TXT")
+        .replace(".", "")
+        .replace(",", "")
+        .replace(" ", "")
+        .replace("_", "")
+        .replace("-", "")
+        .replace("'", "")
+        .replace(r'[^a-zA-Z0-9]$', '')
+    )
+
 def evaluate_results_main(method_name, results_file, ground_truth_file, original_json_file):
 
     # Read the DocETL results JSON file
@@ -19,8 +34,11 @@ def evaluate_results_main(method_name, results_file, ground_truth_file, original
         original_json_content = json.load(f)
     
     original_json_content_cleaned = {}
-    for item in original_json_content:
-        filename = item["name"].split("/")[-1].upper().rstrip(".TXT").replace(".", "").replace(",", "").replace(" ", "").replace("_", "").replace("-", "").replace("'", "").replace(r'[^a-zA-Z0-9]$', '')
+    for idx, item in enumerate(original_json_content):
+        raw_name = item.get("name") or item.get("filename")
+        if not raw_name:
+            raw_name = f"__INDEX__{idx}"
+        filename = _normalize_filename(str(raw_name))
         original_json_content_cleaned[filename] = item
 
     # Variables to track total clause length for calculating average
@@ -34,30 +52,24 @@ def evaluate_results_main(method_name, results_file, ground_truth_file, original
 
     # Sort ground truth dataframe
     ground_truth_df["filename"] = ground_truth_df["filename"].apply(
-        lambda x: x.upper()
-        .replace(".", "")
-        .replace(",", "")
-        .replace(" ", "")
-        .replace("_", "")
-        .replace("-", "")
-        .replace("'", "")
-        .replace(r'[^a-zA-Z0-9]$', '')
+        lambda x: _normalize_filename(str(x))
     )
 
     # Sort DocETL results
-    filename_key = "name" if "name" in list(docetl_results.columns) else "filename"
-    docetl_results["filename"] = docetl_results[filename_key].apply(
-        lambda x: x.split("/")[-1]
-        .upper()
-        .rstrip(".TXT")
-        .replace(".", "")
-        .replace(",", "")
-        .replace(" ", "")
-        .replace("_", "")
-        .replace("-", "")
-        .replace("'", "")
-        .replace(r'[^a-zA-Z0-9]$', '')
-    )
+    if "name" in list(docetl_results.columns) or "filename" in list(docetl_results.columns):
+        filename_key = "name" if "name" in list(docetl_results.columns) else "filename"
+        docetl_results["filename"] = docetl_results[filename_key].apply(
+            lambda x: _normalize_filename(str(x))
+        )
+    else:
+        # Fallback for datasets/results that do not include explicit filename fields.
+        # If lengths match, align rows by position with the ground truth filenames.
+        if len(docetl_results) == len(ground_truth_df):
+            docetl_results["filename"] = ground_truth_df["filename"].tolist()
+        else:
+            docetl_results["filename"] = [
+                _normalize_filename(f"__INDEX__{idx}") for idx in range(len(docetl_results))
+            ]
 
 
     # Function to calculate precision and recall

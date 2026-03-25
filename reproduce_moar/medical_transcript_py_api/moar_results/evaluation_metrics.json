@@ -1,0 +1,17 @@
+[
+  {
+    "file": "pipeline_openai_gpt-4o-mini.json",
+    "medication_extraction_score": 17,
+    "total_correct_medications": 17,
+    "total_extracted_medications": 17,
+    "precision": 1.0,
+    "node_id": 2,
+    "cost": 0.0,
+    "visits": 42,
+    "value": 0,
+    "moar_accuracy": 17,
+    "on_frontier": true,
+    "rank": 1,
+    "accuracy_metric": "medication_extraction_score"
+  }
+]

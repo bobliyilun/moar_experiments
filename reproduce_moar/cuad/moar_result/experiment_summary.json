@@ -1,0 +1,17 @@
+{
+  "optimizer": "moar",
+  "input_pipeline": "cuad.yaml",
+  "model": "openai/gpt-4o-mini",
+  "max_iterations": 40,
+  "exploration_weight": 1.414,
+  "save_dir": "/Users/yilunli/Desktop/moar_experiments/moar_experiments/reproduce_moar/cuad/moar_result",
+  "dataset": "context",
+  "start_time": "2026-03-25T23:57:29.565302",
+  "end_time": "2026-03-25T23:57:43.017552",
+  "duration_seconds": 13.45225,
+  "num_best_nodes": 1,
+  "total_nodes_explored": 0,
+  "total_search_cost": 0.0,
+  "evaluation_file": "/Users/yilunli/Desktop/moar_experiments/moar_experiments/reproduce_moar/cuad/moar_result/evaluation_metrics.json",
+  "pareto_frontier_file": "/Users/yilunli/Desktop/moar_experiments/moar_experiments/reproduce_moar/cuad/moar_result/pareto_frontier.json"
+}

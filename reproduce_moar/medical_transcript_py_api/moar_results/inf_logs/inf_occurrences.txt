@@ -1,0 +1,1337 @@
+
+                ================================================================================
+                Timestamp: 2026-03-25 19:05:42
+                Node ID: 1
+                Parent ID: 0
+                Latest Action: None
+                Failure Type: execution_failure
+                YAML Path: /Users/yilunli/Desktop/moar_experiments/moar_experiments/reproduce_moar/medical_transcript_py_api/moar_results/pipeline_gpt-5.1-nano.yaml
+                Error Message: Note: You may also need to prefix your model name with the provider, e.g. 'openai/gpt-4o-mini' or 'gemini/gemini-1.5-flash' to conform to LiteLLM API standards. Original error: litellm.BadRequestError: LLM Provider NOT provided. Pass in the LLM provider you are trying to call. You passed model=gpt-5.1-nano
+ Pass model as E.g. For 'Huggingface' inference endpoints pass in `completion(model='huggingface/starcoder',..)` Learn more: https://docs.litellm.ai/docs/providers
+                ================================================================================
+                
+                ================================================================================
+                Timestamp: 2026-03-25 19:05:42
+                Node ID: 1
+                Parent ID: 0
+                Latest Action: None
+                Failure Type: simulation_execution_failure
+                YAML Path: /Users/yilunli/Desktop/moar_experiments/moar_experiments/reproduce_moar/medical_transcript_py_api/moar_results/pipeline_gpt-5.1-nano.yaml
+                Error Message: Failed to execute plan /Users/yilunli/Desktop/moar_experiments/moar_experiments/reproduce_moar/medical_transcript_py_api/moar_results/pipeline_gpt-5.1-nano.yaml: Note: You may also need to prefix your model name with the provider, e.g. 'openai/gpt-4o-mini' or 'gemini/gemini-1.5-flash' to conform to LiteLLM API standards. Original error: litellm.BadRequestError: LLM Provider NOT provided. Pass in the LLM provider you are trying to call. You passed model=gpt-5.1-nano
+ Pass model as E.g. For 'Huggingface' inference endpoints pass in `completion(model='huggingface/starcoder',..)` Learn more: https://docs.litellm.ai/docs/providers
+                ================================================================================
+                
+                ================================================================================
+                Timestamp: 2026-03-25 19:05:43
+                Node ID: 2
+                Parent ID: 0
+                Latest Action: None
+                Failure Type: execution_failure
+                YAML Path: /Users/yilunli/Desktop/moar_experiments/moar_experiments/reproduce_moar/medical_transcript_py_api/moar_results/pipeline_gpt-5.1-mini.yaml
+                Error Message: Note: You may also need to prefix your model name with the provider, e.g. 'openai/gpt-4o-mini' or 'gemini/gemini-1.5-flash' to conform to LiteLLM API standards. Original error: litellm.BadRequestError: LLM Provider NOT provided. Pass in the LLM provider you are trying to call. You passed model=gpt-5.1-mini
+ Pass model as E.g. For 'Huggingface' inference endpoints pass in `completion(model='huggingface/starcoder',..)` Learn more: https://docs.litellm.ai/docs/providers
+                ================================================================================
+                
+                ================================================================================
+                Timestamp: 2026-03-25 19:05:43
+                Node ID: 2
+                Parent ID: 0
+                Latest Action: None
+                Failure Type: simulation_execution_failure
+                YAML Path: /Users/yilunli/Desktop/moar_experiments/moar_experiments/reproduce_moar/medical_transcript_py_api/moar_results/pipeline_gpt-5.1-mini.yaml
+                Error Message: Failed to execute plan /Users/yilunli/Desktop/moar_experiments/moar_experiments/reproduce_moar/medical_transcript_py_api/moar_results/pipeline_gpt-5.1-mini.yaml: Note: You may also need to prefix your model name with the provider, e.g. 'openai/gpt-4o-mini' or 'gemini/gemini-1.5-flash' to conform to LiteLLM API standards. Original error: litellm.BadRequestError: LLM Provider NOT provided. Pass in the LLM provider you are trying to call. You passed model=gpt-5.1-mini
+ Pass model as E.g. For 'Huggingface' inference endpoints pass in `completion(model='huggingface/starcoder',..)` Learn more: https://docs.litellm.ai/docs/providers
+                ================================================================================
+                
+                ================================================================================
+                Timestamp: 2026-03-25 19:14:47
+                Node ID: 1
+                Parent ID: 0
+                Latest Action: None
+                Failure Type: execution_failure
+                YAML Path: /Users/yilunli/Desktop/moar_experiments/moar_experiments/reproduce_moar/medical_transcript_py_api/moar_results/pipeline_gpt-5.1-nano.yaml
+                Error Message: Note: You may also need to prefix your model name with the provider, e.g. 'openai/gpt-4o-mini' or 'gemini/gemini-1.5-flash' to conform to LiteLLM API standards. Original error: litellm.BadRequestError: LLM Provider NOT provided. Pass in the LLM provider you are trying to call. You passed model=gpt-5.1-nano
+ Pass model as E.g. For 'Huggingface' inference endpoints pass in `completion(model='huggingface/starcoder',..)` Learn more: https://docs.litellm.ai/docs/providers
+                ================================================================================
+                
+                ================================================================================
+                Timestamp: 2026-03-25 19:14:47
+                Node ID: 1
+                Parent ID: 0
+                Latest Action: None
+                Failure Type: simulation_execution_failure
+                YAML Path: /Users/yilunli/Desktop/moar_experiments/moar_experiments/reproduce_moar/medical_transcript_py_api/moar_results/pipeline_gpt-5.1-nano.yaml
+                Error Message: Failed to execute plan /Users/yilunli/Desktop/moar_experiments/moar_experiments/reproduce_moar/medical_transcript_py_api/moar_results/pipeline_gpt-5.1-nano.yaml: Note: You may also need to prefix your model name with the provider, e.g. 'openai/gpt-4o-mini' or 'gemini/gemini-1.5-flash' to conform to LiteLLM API standards. Original error: litellm.BadRequestError: LLM Provider NOT provided. Pass in the LLM provider you are trying to call. You passed model=gpt-5.1-nano
+ Pass model as E.g. For 'Huggingface' inference endpoints pass in `completion(model='huggingface/starcoder',..)` Learn more: https://docs.litellm.ai/docs/providers
+                ================================================================================
+                
+                ================================================================================
+                Timestamp: 2026-03-25 19:14:47
+                Node ID: 2
+                Parent ID: 0
+                Latest Action: None
+                Failure Type: execution_failure
+                YAML Path: /Users/yilunli/Desktop/moar_experiments/moar_experiments/reproduce_moar/medical_transcript_py_api/moar_results/pipeline_gpt-5.1-mini.yaml
+                Error Message: Note: You may also need to prefix your model name with the provider, e.g. 'openai/gpt-4o-mini' or 'gemini/gemini-1.5-flash' to conform to LiteLLM API standards. Original error: litellm.BadRequestError: LLM Provider NOT provided. Pass in the LLM provider you are trying to call. You passed model=gpt-5.1-mini
+ Pass model as E.g. For 'Huggingface' inference endpoints pass in `completion(model='huggingface/starcoder',..)` Learn more: https://docs.litellm.ai/docs/providers
+                ================================================================================
+                
+                ================================================================================
+                Timestamp: 2026-03-25 19:14:47
+                Node ID: 2
+                Parent ID: 0
+                Latest Action: None
+                Failure Type: simulation_execution_failure
+                YAML Path: /Users/yilunli/Desktop/moar_experiments/moar_experiments/reproduce_moar/medical_transcript_py_api/moar_results/pipeline_gpt-5.1-mini.yaml
+                Error Message: Failed to execute plan /Users/yilunli/Desktop/moar_experiments/moar_experiments/reproduce_moar/medical_transcript_py_api/moar_results/pipeline_gpt-5.1-mini.yaml: Note: You may also need to prefix your model name with the provider, e.g. 'openai/gpt-4o-mini' or 'gemini/gemini-1.5-flash' to conform to LiteLLM API standards. Original error: litellm.BadRequestError: LLM Provider NOT provided. Pass in the LLM provider you are trying to call. You passed model=gpt-5.1-mini
+ Pass model as E.g. For 'Huggingface' inference endpoints pass in `completion(model='huggingface/starcoder',..)` Learn more: https://docs.litellm.ai/docs/providers
+                ================================================================================
+                
+                ================================================================================
+                Timestamp: 2026-03-25 19:17:11
+                Node ID: 5
+                Parent ID: 0
+                Latest Action: None
+                Failure Type: execution_failure
+                YAML Path: /Users/yilunli/Desktop/moar_experiments/moar_experiments/reproduce_moar/medical_transcript_py_api/moar_results/pipeline_gpt-4o-mini.yaml
+                Error Message: litellm.InternalServerError: InternalServerError: OpenAIException - Connection error.
+                ================================================================================
+                
+                ================================================================================
+                Timestamp: 2026-03-25 19:17:12
+                Node ID: 5
+                Parent ID: 0
+                Latest Action: None
+                Failure Type: simulation_execution_failure
+                YAML Path: /Users/yilunli/Desktop/moar_experiments/moar_experiments/reproduce_moar/medical_transcript_py_api/moar_results/pipeline_gpt-4o-mini.yaml
+                Error Message: Failed to execute plan /Users/yilunli/Desktop/moar_experiments/moar_experiments/reproduce_moar/medical_transcript_py_api/moar_results/pipeline_gpt-4o-mini.yaml: litellm.InternalServerError: InternalServerError: OpenAIException - Connection error.
+                ================================================================================
+                
+                ================================================================================
+                Timestamp: 2026-03-25 19:23:15
+                Node ID: 1
+                Parent ID: 0
+                Latest Action: None
+                Failure Type: execution_failure
+                YAML Path: /Users/yilunli/Desktop/moar_experiments/moar_experiments/reproduce_moar/medical_transcript_py_api/moar_results/pipeline_gpt-5.1-nano.yaml
+                Error Message: Note: You may also need to prefix your model name with the provider, e.g. 'openai/gpt-4o-mini' or 'gemini/gemini-1.5-flash' to conform to LiteLLM API standards. Original error: litellm.BadRequestError: LLM Provider NOT provided. Pass in the LLM provider you are trying to call. You passed model=gpt-5.1-nano
+ Pass model as E.g. For 'Huggingface' inference endpoints pass in `completion(model='huggingface/starcoder',..)` Learn more: https://docs.litellm.ai/docs/providers
+                ================================================================================
+                
+                ================================================================================
+                Timestamp: 2026-03-25 19:23:15
+                Node ID: 1
+                Parent ID: 0
+                Latest Action: None
+                Failure Type: simulation_execution_failure
+                YAML Path: /Users/yilunli/Desktop/moar_experiments/moar_experiments/reproduce_moar/medical_transcript_py_api/moar_results/pipeline_gpt-5.1-nano.yaml
+                Error Message: Failed to execute plan /Users/yilunli/Desktop/moar_experiments/moar_experiments/reproduce_moar/medical_transcript_py_api/moar_results/pipeline_gpt-5.1-nano.yaml: Note: You may also need to prefix your model name with the provider, e.g. 'openai/gpt-4o-mini' or 'gemini/gemini-1.5-flash' to conform to LiteLLM API standards. Original error: litellm.BadRequestError: LLM Provider NOT provided. Pass in the LLM provider you are trying to call. You passed model=gpt-5.1-nano
+ Pass model as E.g. For 'Huggingface' inference endpoints pass in `completion(model='huggingface/starcoder',..)` Learn more: https://docs.litellm.ai/docs/providers
+                ================================================================================
+                
+                ================================================================================
+                Timestamp: 2026-03-25 19:23:15
+                Node ID: 2
+                Parent ID: 0
+                Latest Action: None
+                Failure Type: execution_failure
+                YAML Path: /Users/yilunli/Desktop/moar_experiments/moar_experiments/reproduce_moar/medical_transcript_py_api/moar_results/pipeline_gpt-5.1-mini.yaml
+                Error Message: Note: You may also need to prefix your model name with the provider, e.g. 'openai/gpt-4o-mini' or 'gemini/gemini-1.5-flash' to conform to LiteLLM API standards. Original error: litellm.BadRequestError: LLM Provider NOT provided. Pass in the LLM provider you are trying to call. You passed model=gpt-5.1-mini
+ Pass model as E.g. For 'Huggingface' inference endpoints pass in `completion(model='huggingface/starcoder',..)` Learn more: https://docs.litellm.ai/docs/providers
+                ================================================================================
+                
+                ================================================================================
+                Timestamp: 2026-03-25 19:23:15
+                Node ID: 2
+                Parent ID: 0
+                Latest Action: None
+                Failure Type: simulation_execution_failure
+                YAML Path: /Users/yilunli/Desktop/moar_experiments/moar_experiments/reproduce_moar/medical_transcript_py_api/moar_results/pipeline_gpt-5.1-mini.yaml
+                Error Message: Failed to execute plan /Users/yilunli/Desktop/moar_experiments/moar_experiments/reproduce_moar/medical_transcript_py_api/moar_results/pipeline_gpt-5.1-mini.yaml: Note: You may also need to prefix your model name with the provider, e.g. 'openai/gpt-4o-mini' or 'gemini/gemini-1.5-flash' to conform to LiteLLM API standards. Original error: litellm.BadRequestError: LLM Provider NOT provided. Pass in the LLM provider you are trying to call. You passed model=gpt-5.1-mini
+ Pass model as E.g. For 'Huggingface' inference endpoints pass in `completion(model='huggingface/starcoder',..)` Learn more: https://docs.litellm.ai/docs/providers
+                ================================================================================
+                
+                ================================================================================
+                Timestamp: 2026-03-25 19:25:08
+                Node ID: 1
+                Parent ID: 0
+                Latest Action: None
+                Failure Type: execution_failure
+                YAML Path: /Users/yilunli/Desktop/moar_experiments/moar_experiments/reproduce_moar/medical_transcript_py_api/moar_results/pipeline_gpt-5.1-nano.yaml
+                Error Message: Note: You may also need to prefix your model name with the provider, e.g. 'openai/gpt-4o-mini' or 'gemini/gemini-1.5-flash' to conform to LiteLLM API standards. Original error: litellm.BadRequestError: LLM Provider NOT provided. Pass in the LLM provider you are trying to call. You passed model=gpt-5.1-nano
+ Pass model as E.g. For 'Huggingface' inference endpoints pass in `completion(model='huggingface/starcoder',..)` Learn more: https://docs.litellm.ai/docs/providers
+                ================================================================================
+                
+                ================================================================================
+                Timestamp: 2026-03-25 19:25:08
+                Node ID: 1
+                Parent ID: 0
+                Latest Action: None
+                Failure Type: simulation_execution_failure
+                YAML Path: /Users/yilunli/Desktop/moar_experiments/moar_experiments/reproduce_moar/medical_transcript_py_api/moar_results/pipeline_gpt-5.1-nano.yaml
+                Error Message: Failed to execute plan /Users/yilunli/Desktop/moar_experiments/moar_experiments/reproduce_moar/medical_transcript_py_api/moar_results/pipeline_gpt-5.1-nano.yaml: Note: You may also need to prefix your model name with the provider, e.g. 'openai/gpt-4o-mini' or 'gemini/gemini-1.5-flash' to conform to LiteLLM API standards. Original error: litellm.BadRequestError: LLM Provider NOT provided. Pass in the LLM provider you are trying to call. You passed model=gpt-5.1-nano
+ Pass model as E.g. For 'Huggingface' inference endpoints pass in `completion(model='huggingface/starcoder',..)` Learn more: https://docs.litellm.ai/docs/providers
+                ================================================================================
+                
+                ================================================================================
+                Timestamp: 2026-03-25 19:25:08
+                Node ID: 2
+                Parent ID: 0
+                Latest Action: None
+                Failure Type: execution_failure
+                YAML Path: /Users/yilunli/Desktop/moar_experiments/moar_experiments/reproduce_moar/medical_transcript_py_api/moar_results/pipeline_gpt-5.1-mini.yaml
+                Error Message: Note: You may also need to prefix your model name with the provider, e.g. 'openai/gpt-4o-mini' or 'gemini/gemini-1.5-flash' to conform to LiteLLM API standards. Original error: litellm.BadRequestError: LLM Provider NOT provided. Pass in the LLM provider you are trying to call. You passed model=gpt-5.1-mini
+ Pass model as E.g. For 'Huggingface' inference endpoints pass in `completion(model='huggingface/starcoder',..)` Learn more: https://docs.litellm.ai/docs/providers
+                ================================================================================
+                
+                ================================================================================
+                Timestamp: 2026-03-25 19:25:08
+                Node ID: 2
+                Parent ID: 0
+                Latest Action: None
+                Failure Type: simulation_execution_failure
+                YAML Path: /Users/yilunli/Desktop/moar_experiments/moar_experiments/reproduce_moar/medical_transcript_py_api/moar_results/pipeline_gpt-5.1-mini.yaml
+                Error Message: Failed to execute plan /Users/yilunli/Desktop/moar_experiments/moar_experiments/reproduce_moar/medical_transcript_py_api/moar_results/pipeline_gpt-5.1-mini.yaml: Note: You may also need to prefix your model name with the provider, e.g. 'openai/gpt-4o-mini' or 'gemini/gemini-1.5-flash' to conform to LiteLLM API standards. Original error: litellm.BadRequestError: LLM Provider NOT provided. Pass in the LLM provider you are trying to call. You passed model=gpt-5.1-mini
+ Pass model as E.g. For 'Huggingface' inference endpoints pass in `completion(model='huggingface/starcoder',..)` Learn more: https://docs.litellm.ai/docs/providers
+                ================================================================================
+                
+                ================================================================================
+                Timestamp: 2026-03-25 19:28:06
+                Node ID: 1
+                Parent ID: 0
+                Latest Action: None
+                Failure Type: execution_failure
+                YAML Path: /Users/yilunli/Desktop/moar_experiments/moar_experiments/reproduce_moar/medical_transcript_py_api/moar_results/pipeline_openai_gpt-5.1-nano.yaml
+                Error Message: litellm.UnsupportedParamsError: openai does not support parameters: ['tool_choice'], for model=gpt-5.1-nano. To drop these, set `litellm.drop_params=True` or for proxy:
+
+`litellm_settings:
+ drop_params: true`
+. 
+ If you want to use these params dynamically send allowed_openai_params=['tool_choice'] in your request.
+                ================================================================================
+                
+                ================================================================================
+                Timestamp: 2026-03-25 19:28:06
+                Node ID: 1
+                Parent ID: 0
+                Latest Action: None
+                Failure Type: simulation_execution_failure
+                YAML Path: /Users/yilunli/Desktop/moar_experiments/moar_experiments/reproduce_moar/medical_transcript_py_api/moar_results/pipeline_openai_gpt-5.1-nano.yaml
+                Error Message: Failed to execute plan /Users/yilunli/Desktop/moar_experiments/moar_experiments/reproduce_moar/medical_transcript_py_api/moar_results/pipeline_openai_gpt-5.1-nano.yaml: litellm.UnsupportedParamsError: openai does not support parameters: ['tool_choice'], for model=gpt-5.1-nano. To drop these, set `litellm.drop_params=True` or for proxy:
+
+`litellm_settings:
+ drop_params: true`
+. 
+ If you want to use these params dynamically send allowed_openai_params=['tool_choice'] in your request.
+                ================================================================================
+                
+                ================================================================================
+                Timestamp: 2026-03-25 19:28:06
+                Node ID: 2
+                Parent ID: 0
+                Latest Action: None
+                Failure Type: execution_failure
+                YAML Path: /Users/yilunli/Desktop/moar_experiments/moar_experiments/reproduce_moar/medical_transcript_py_api/moar_results/pipeline_openai_gpt-5.1-mini.yaml
+                Error Message: litellm.UnsupportedParamsError: openai does not support parameters: ['tool_choice'], for model=gpt-5.1-mini. To drop these, set `litellm.drop_params=True` or for proxy:
+
+`litellm_settings:
+ drop_params: true`
+. 
+ If you want to use these params dynamically send allowed_openai_params=['tool_choice'] in your request.
+                ================================================================================
+                
+                ================================================================================
+                Timestamp: 2026-03-25 19:28:06
+                Node ID: 2
+                Parent ID: 0
+                Latest Action: None
+                Failure Type: simulation_execution_failure
+                YAML Path: /Users/yilunli/Desktop/moar_experiments/moar_experiments/reproduce_moar/medical_transcript_py_api/moar_results/pipeline_openai_gpt-5.1-mini.yaml
+                Error Message: Failed to execute plan /Users/yilunli/Desktop/moar_experiments/moar_experiments/reproduce_moar/medical_transcript_py_api/moar_results/pipeline_openai_gpt-5.1-mini.yaml: litellm.UnsupportedParamsError: openai does not support parameters: ['tool_choice'], for model=gpt-5.1-mini. To drop these, set `litellm.drop_params=True` or for proxy:
+
+`litellm_settings:
+ drop_params: true`
+. 
+ If you want to use these params dynamically send allowed_openai_params=['tool_choice'] in your request.
+                ================================================================================
+                
+                ================================================================================
+                Timestamp: 2026-03-25 19:30:25
+                Node ID: 1
+                Parent ID: 0
+                Latest Action: None
+                Failure Type: execution_failure
+                YAML Path: /Users/yilunli/Desktop/moar_experiments/moar_experiments/reproduce_moar/medical_transcript_py_api/moar_results/pipeline_openai_gpt-5.1-nano.yaml
+                Error Message: litellm.UnsupportedParamsError: openai does not support parameters: ['tool_choice'], for model=gpt-5.1-nano. To drop these, set `litellm.drop_params=True` or for proxy:
+
+`litellm_settings:
+ drop_params: true`
+. 
+ If you want to use these params dynamically send allowed_openai_params=['tool_choice'] in your request.
+                ================================================================================
+                
+                ================================================================================
+                Timestamp: 2026-03-25 19:30:25
+                Node ID: 1
+                Parent ID: 0
+                Latest Action: None
+                Failure Type: simulation_execution_failure
+                YAML Path: /Users/yilunli/Desktop/moar_experiments/moar_experiments/reproduce_moar/medical_transcript_py_api/moar_results/pipeline_openai_gpt-5.1-nano.yaml
+                Error Message: Failed to execute plan /Users/yilunli/Desktop/moar_experiments/moar_experiments/reproduce_moar/medical_transcript_py_api/moar_results/pipeline_openai_gpt-5.1-nano.yaml: litellm.UnsupportedParamsError: openai does not support parameters: ['tool_choice'], for model=gpt-5.1-nano. To drop these, set `litellm.drop_params=True` or for proxy:
+
+`litellm_settings:
+ drop_params: true`
+. 
+ If you want to use these params dynamically send allowed_openai_params=['tool_choice'] in your request.
+                ================================================================================
+                
+                ================================================================================
+                Timestamp: 2026-03-25 19:30:25
+                Node ID: 2
+                Parent ID: 0
+                Latest Action: None
+                Failure Type: execution_failure
+                YAML Path: /Users/yilunli/Desktop/moar_experiments/moar_experiments/reproduce_moar/medical_transcript_py_api/moar_results/pipeline_openai_gpt-5.1-mini.yaml
+                Error Message: litellm.UnsupportedParamsError: openai does not support parameters: ['tool_choice'], for model=gpt-5.1-mini. To drop these, set `litellm.drop_params=True` or for proxy:
+
+`litellm_settings:
+ drop_params: true`
+. 
+ If you want to use these params dynamically send allowed_openai_params=['tool_choice'] in your request.
+                ================================================================================
+                
+                ================================================================================
+                Timestamp: 2026-03-25 19:30:25
+                Node ID: 2
+                Parent ID: 0
+                Latest Action: None
+                Failure Type: simulation_execution_failure
+                YAML Path: /Users/yilunli/Desktop/moar_experiments/moar_experiments/reproduce_moar/medical_transcript_py_api/moar_results/pipeline_openai_gpt-5.1-mini.yaml
+                Error Message: Failed to execute plan /Users/yilunli/Desktop/moar_experiments/moar_experiments/reproduce_moar/medical_transcript_py_api/moar_results/pipeline_openai_gpt-5.1-mini.yaml: litellm.UnsupportedParamsError: openai does not support parameters: ['tool_choice'], for model=gpt-5.1-mini. To drop these, set `litellm.drop_params=True` or for proxy:
+
+`litellm_settings:
+ drop_params: true`
+. 
+ If you want to use these params dynamically send allowed_openai_params=['tool_choice'] in your request.
+                ================================================================================
+                
+                ================================================================================
+                Timestamp: 2026-03-25 19:32:36
+                Node ID: 1
+                Parent ID: 0
+                Latest Action: None
+                Failure Type: execution_failure
+                YAML Path: /Users/yilunli/Desktop/moar_experiments/moar_experiments/reproduce_moar/medical_transcript_py_api/moar_results/pipeline_openai_gpt-5.1-nano.yaml
+                Error Message: litellm.UnsupportedParamsError: openai does not support parameters: ['tool_choice'], for model=gpt-5.1-nano. To drop these, set `litellm.drop_params=True` or for proxy:
+
+`litellm_settings:
+ drop_params: true`
+. 
+ If you want to use these params dynamically send allowed_openai_params=['tool_choice'] in your request.
+                ================================================================================
+                
+                ================================================================================
+                Timestamp: 2026-03-25 19:32:36
+                Node ID: 1
+                Parent ID: 0
+                Latest Action: None
+                Failure Type: simulation_execution_failure
+                YAML Path: /Users/yilunli/Desktop/moar_experiments/moar_experiments/reproduce_moar/medical_transcript_py_api/moar_results/pipeline_openai_gpt-5.1-nano.yaml
+                Error Message: Failed to execute plan /Users/yilunli/Desktop/moar_experiments/moar_experiments/reproduce_moar/medical_transcript_py_api/moar_results/pipeline_openai_gpt-5.1-nano.yaml: litellm.UnsupportedParamsError: openai does not support parameters: ['tool_choice'], for model=gpt-5.1-nano. To drop these, set `litellm.drop_params=True` or for proxy:
+
+`litellm_settings:
+ drop_params: true`
+. 
+ If you want to use these params dynamically send allowed_openai_params=['tool_choice'] in your request.
+                ================================================================================
+                
+                ================================================================================
+                Timestamp: 2026-03-25 19:32:36
+                Node ID: 2
+                Parent ID: 0
+                Latest Action: None
+                Failure Type: execution_failure
+                YAML Path: /Users/yilunli/Desktop/moar_experiments/moar_experiments/reproduce_moar/medical_transcript_py_api/moar_results/pipeline_openai_gpt-5.1-mini.yaml
+                Error Message: litellm.UnsupportedParamsError: openai does not support parameters: ['tool_choice'], for model=gpt-5.1-mini. To drop these, set `litellm.drop_params=True` or for proxy:
+
+`litellm_settings:
+ drop_params: true`
+. 
+ If you want to use these params dynamically send allowed_openai_params=['tool_choice'] in your request.
+                ================================================================================
+                
+                ================================================================================
+                Timestamp: 2026-03-25 19:32:36
+                Node ID: 2
+                Parent ID: 0
+                Latest Action: None
+                Failure Type: simulation_execution_failure
+                YAML Path: /Users/yilunli/Desktop/moar_experiments/moar_experiments/reproduce_moar/medical_transcript_py_api/moar_results/pipeline_openai_gpt-5.1-mini.yaml
+                Error Message: Failed to execute plan /Users/yilunli/Desktop/moar_experiments/moar_experiments/reproduce_moar/medical_transcript_py_api/moar_results/pipeline_openai_gpt-5.1-mini.yaml: litellm.UnsupportedParamsError: openai does not support parameters: ['tool_choice'], for model=gpt-5.1-mini. To drop these, set `litellm.drop_params=True` or for proxy:
+
+`litellm_settings:
+ drop_params: true`
+. 
+ If you want to use these params dynamically send allowed_openai_params=['tool_choice'] in your request.
+                ================================================================================
+                
+                ================================================================================
+                Timestamp: 2026-03-25 19:33:12
+                Node ID: 1
+                Parent ID: 0
+                Latest Action: None
+                Failure Type: execution_failure
+                YAML Path: /Users/yilunli/Desktop/moar_experiments/moar_experiments/reproduce_moar/medical_transcript_py_api/moar_results/pipeline_openai_gpt-5.1-nano.yaml
+                Error Message: litellm.UnsupportedParamsError: openai does not support parameters: ['tool_choice'], for model=gpt-5.1-nano. To drop these, set `litellm.drop_params=True` or for proxy:
+
+`litellm_settings:
+ drop_params: true`
+. 
+ If you want to use these params dynamically send allowed_openai_params=['tool_choice'] in your request.
+                ================================================================================
+                
+                ================================================================================
+                Timestamp: 2026-03-25 19:33:12
+                Node ID: 1
+                Parent ID: 0
+                Latest Action: None
+                Failure Type: simulation_execution_failure
+                YAML Path: /Users/yilunli/Desktop/moar_experiments/moar_experiments/reproduce_moar/medical_transcript_py_api/moar_results/pipeline_openai_gpt-5.1-nano.yaml
+                Error Message: Failed to execute plan /Users/yilunli/Desktop/moar_experiments/moar_experiments/reproduce_moar/medical_transcript_py_api/moar_results/pipeline_openai_gpt-5.1-nano.yaml: litellm.UnsupportedParamsError: openai does not support parameters: ['tool_choice'], for model=gpt-5.1-nano. To drop these, set `litellm.drop_params=True` or for proxy:
+
+`litellm_settings:
+ drop_params: true`
+. 
+ If you want to use these params dynamically send allowed_openai_params=['tool_choice'] in your request.
+                ================================================================================
+                
+                ================================================================================
+                Timestamp: 2026-03-25 19:33:12
+                Node ID: 2
+                Parent ID: 0
+                Latest Action: None
+                Failure Type: execution_failure
+                YAML Path: /Users/yilunli/Desktop/moar_experiments/moar_experiments/reproduce_moar/medical_transcript_py_api/moar_results/pipeline_openai_gpt-5.1-mini.yaml
+                Error Message: litellm.UnsupportedParamsError: openai does not support parameters: ['tool_choice'], for model=gpt-5.1-mini. To drop these, set `litellm.drop_params=True` or for proxy:
+
+`litellm_settings:
+ drop_params: true`
+. 
+ If you want to use these params dynamically send allowed_openai_params=['tool_choice'] in your request.
+                ================================================================================
+                
+                ================================================================================
+                Timestamp: 2026-03-25 19:33:12
+                Node ID: 2
+                Parent ID: 0
+                Latest Action: None
+                Failure Type: simulation_execution_failure
+                YAML Path: /Users/yilunli/Desktop/moar_experiments/moar_experiments/reproduce_moar/medical_transcript_py_api/moar_results/pipeline_openai_gpt-5.1-mini.yaml
+                Error Message: Failed to execute plan /Users/yilunli/Desktop/moar_experiments/moar_experiments/reproduce_moar/medical_transcript_py_api/moar_results/pipeline_openai_gpt-5.1-mini.yaml: litellm.UnsupportedParamsError: openai does not support parameters: ['tool_choice'], for model=gpt-5.1-mini. To drop these, set `litellm.drop_params=True` or for proxy:
+
+`litellm_settings:
+ drop_params: true`
+. 
+ If you want to use these params dynamically send allowed_openai_params=['tool_choice'] in your request.
+                ================================================================================
+                
+                ================================================================================
+                Timestamp: 2026-03-25 19:35:18
+                Node ID: 1
+                Parent ID: 0
+                Latest Action: None
+                Failure Type: execution_failure
+                YAML Path: /Users/yilunli/Desktop/moar_experiments/moar_experiments/reproduce_moar/medical_transcript_py_api/moar_results/pipeline_openai_gpt-5.1-nano.yaml
+                Error Message: litellm.UnsupportedParamsError: openai does not support parameters: ['tool_choice'], for model=gpt-5.1-nano. To drop these, set `litellm.drop_params=True` or for proxy:
+
+`litellm_settings:
+ drop_params: true`
+. 
+ If you want to use these params dynamically send allowed_openai_params=['tool_choice'] in your request.
+                ================================================================================
+                
+                ================================================================================
+                Timestamp: 2026-03-25 19:35:18
+                Node ID: 1
+                Parent ID: 0
+                Latest Action: None
+                Failure Type: simulation_execution_failure
+                YAML Path: /Users/yilunli/Desktop/moar_experiments/moar_experiments/reproduce_moar/medical_transcript_py_api/moar_results/pipeline_openai_gpt-5.1-nano.yaml
+                Error Message: Failed to execute plan /Users/yilunli/Desktop/moar_experiments/moar_experiments/reproduce_moar/medical_transcript_py_api/moar_results/pipeline_openai_gpt-5.1-nano.yaml: litellm.UnsupportedParamsError: openai does not support parameters: ['tool_choice'], for model=gpt-5.1-nano. To drop these, set `litellm.drop_params=True` or for proxy:
+
+`litellm_settings:
+ drop_params: true`
+. 
+ If you want to use these params dynamically send allowed_openai_params=['tool_choice'] in your request.
+                ================================================================================
+                
+                ================================================================================
+                Timestamp: 2026-03-25 19:35:18
+                Node ID: 2
+                Parent ID: 0
+                Latest Action: None
+                Failure Type: execution_failure
+                YAML Path: /Users/yilunli/Desktop/moar_experiments/moar_experiments/reproduce_moar/medical_transcript_py_api/moar_results/pipeline_openai_gpt-5.1-mini.yaml
+                Error Message: litellm.UnsupportedParamsError: openai does not support parameters: ['tool_choice'], for model=gpt-5.1-mini. To drop these, set `litellm.drop_params=True` or for proxy:
+
+`litellm_settings:
+ drop_params: true`
+. 
+ If you want to use these params dynamically send allowed_openai_params=['tool_choice'] in your request.
+                ================================================================================
+                
+                ================================================================================
+                Timestamp: 2026-03-25 19:35:18
+                Node ID: 2
+                Parent ID: 0
+                Latest Action: None
+                Failure Type: simulation_execution_failure
+                YAML Path: /Users/yilunli/Desktop/moar_experiments/moar_experiments/reproduce_moar/medical_transcript_py_api/moar_results/pipeline_openai_gpt-5.1-mini.yaml
+                Error Message: Failed to execute plan /Users/yilunli/Desktop/moar_experiments/moar_experiments/reproduce_moar/medical_transcript_py_api/moar_results/pipeline_openai_gpt-5.1-mini.yaml: litellm.UnsupportedParamsError: openai does not support parameters: ['tool_choice'], for model=gpt-5.1-mini. To drop these, set `litellm.drop_params=True` or for proxy:
+
+`litellm_settings:
+ drop_params: true`
+. 
+ If you want to use these params dynamically send allowed_openai_params=['tool_choice'] in your request.
+                ================================================================================
+                
+                ================================================================================
+                Timestamp: 2026-03-25 20:04:39
+                Node ID: 1
+                Parent ID: 0
+                Latest Action: None
+                Failure Type: execution_failure
+                YAML Path: /Users/yilunli/Desktop/moar_experiments/moar_experiments/reproduce_moar/medical_transcript_py_api/moar_results/pipeline_openai_gpt-5.1-mini.yaml
+                Error Message: litellm.UnsupportedParamsError: openai does not support parameters: ['tool_choice'], for model=gpt-5.1-mini. To drop these, set `litellm.drop_params=True` or for proxy:
+
+`litellm_settings:
+ drop_params: true`
+. 
+ If you want to use these params dynamically send allowed_openai_params=['tool_choice'] in your request.
+                ================================================================================
+                
+                ================================================================================
+                Timestamp: 2026-03-25 20:04:39
+                Node ID: 1
+                Parent ID: 0
+                Latest Action: None
+                Failure Type: simulation_execution_failure
+                YAML Path: /Users/yilunli/Desktop/moar_experiments/moar_experiments/reproduce_moar/medical_transcript_py_api/moar_results/pipeline_openai_gpt-5.1-mini.yaml
+                Error Message: Failed to execute plan /Users/yilunli/Desktop/moar_experiments/moar_experiments/reproduce_moar/medical_transcript_py_api/moar_results/pipeline_openai_gpt-5.1-mini.yaml: litellm.UnsupportedParamsError: openai does not support parameters: ['tool_choice'], for model=gpt-5.1-mini. To drop these, set `litellm.drop_params=True` or for proxy:
+
+`litellm_settings:
+ drop_params: true`
+. 
+ If you want to use these params dynamically send allowed_openai_params=['tool_choice'] in your request.
+                ================================================================================
+                
+                ================================================================================
+                Timestamp: 2026-03-25 20:05:47
+                Node ID: 1
+                Parent ID: 0
+                Latest Action: None
+                Failure Type: execution_failure
+                YAML Path: /Users/yilunli/Desktop/moar_experiments/moar_experiments/reproduce_moar/medical_transcript_py_api/moar_results/pipeline_openai_gpt-5.1-mini.yaml
+                Error Message: litellm.UnsupportedParamsError: openai does not support parameters: ['tool_choice'], for model=gpt-5.1-mini. To drop these, set `litellm.drop_params=True` or for proxy:
+
+`litellm_settings:
+ drop_params: true`
+. 
+ If you want to use these params dynamically send allowed_openai_params=['tool_choice'] in your request.
+                ================================================================================
+                
+                ================================================================================
+                Timestamp: 2026-03-25 20:05:47
+                Node ID: 1
+                Parent ID: 0
+                Latest Action: None
+                Failure Type: simulation_execution_failure
+                YAML Path: /Users/yilunli/Desktop/moar_experiments/moar_experiments/reproduce_moar/medical_transcript_py_api/moar_results/pipeline_openai_gpt-5.1-mini.yaml
+                Error Message: Failed to execute plan /Users/yilunli/Desktop/moar_experiments/moar_experiments/reproduce_moar/medical_transcript_py_api/moar_results/pipeline_openai_gpt-5.1-mini.yaml: litellm.UnsupportedParamsError: openai does not support parameters: ['tool_choice'], for model=gpt-5.1-mini. To drop these, set `litellm.drop_params=True` or for proxy:
+
+`litellm_settings:
+ drop_params: true`
+. 
+ If you want to use these params dynamically send allowed_openai_params=['tool_choice'] in your request.
+                ================================================================================
+                
+                ================================================================================
+                Timestamp: 2026-03-25 20:08:53
+                Node ID: 1
+                Parent ID: 0
+                Latest Action: None
+                Failure Type: execution_failure
+                YAML Path: /Users/yilunli/Desktop/moar_experiments/moar_experiments/reproduce_moar/medical_transcript_py_api/moar_results/pipeline_openai_gpt-5.1-mini.yaml
+                Error Message: litellm.UnsupportedParamsError: openai does not support parameters: ['tool_choice'], for model=gpt-5.1-mini. To drop these, set `litellm.drop_params=True` or for proxy:
+
+`litellm_settings:
+ drop_params: true`
+. 
+ If you want to use these params dynamically send allowed_openai_params=['tool_choice'] in your request.
+                ================================================================================
+                
+                ================================================================================
+                Timestamp: 2026-03-25 20:08:53
+                Node ID: 1
+                Parent ID: 0
+                Latest Action: None
+                Failure Type: simulation_execution_failure
+                YAML Path: /Users/yilunli/Desktop/moar_experiments/moar_experiments/reproduce_moar/medical_transcript_py_api/moar_results/pipeline_openai_gpt-5.1-mini.yaml
+                Error Message: Failed to execute plan /Users/yilunli/Desktop/moar_experiments/moar_experiments/reproduce_moar/medical_transcript_py_api/moar_results/pipeline_openai_gpt-5.1-mini.yaml: litellm.UnsupportedParamsError: openai does not support parameters: ['tool_choice'], for model=gpt-5.1-mini. To drop these, set `litellm.drop_params=True` or for proxy:
+
+`litellm_settings:
+ drop_params: true`
+. 
+ If you want to use these params dynamically send allowed_openai_params=['tool_choice'] in your request.
+                ================================================================================
+                
+                ================================================================================
+                Timestamp: 2026-03-25 20:09:34
+                Node ID: 1
+                Parent ID: 0
+                Latest Action: None
+                Failure Type: execution_failure
+                YAML Path: /Users/yilunli/Desktop/moar_experiments/moar_experiments/reproduce_moar/medical_transcript_py_api/moar_results/pipeline_openai_gpt-5.1-mini.yaml
+                Error Message: litellm.UnsupportedParamsError: openai does not support parameters: ['tool_choice'], for model=gpt-5.1-mini. To drop these, set `litellm.drop_params=True` or for proxy:
+
+`litellm_settings:
+ drop_params: true`
+. 
+ If you want to use these params dynamically send allowed_openai_params=['tool_choice'] in your request.
+                ================================================================================
+                
+                ================================================================================
+                Timestamp: 2026-03-25 20:09:34
+                Node ID: 1
+                Parent ID: 0
+                Latest Action: None
+                Failure Type: simulation_execution_failure
+                YAML Path: /Users/yilunli/Desktop/moar_experiments/moar_experiments/reproduce_moar/medical_transcript_py_api/moar_results/pipeline_openai_gpt-5.1-mini.yaml
+                Error Message: Failed to execute plan /Users/yilunli/Desktop/moar_experiments/moar_experiments/reproduce_moar/medical_transcript_py_api/moar_results/pipeline_openai_gpt-5.1-mini.yaml: litellm.UnsupportedParamsError: openai does not support parameters: ['tool_choice'], for model=gpt-5.1-mini. To drop these, set `litellm.drop_params=True` or for proxy:
+
+`litellm_settings:
+ drop_params: true`
+. 
+ If you want to use these params dynamically send allowed_openai_params=['tool_choice'] in your request.
+                ================================================================================
+                
+                ================================================================================
+                Timestamp: 2026-03-25 20:12:07
+                Node ID: 1
+                Parent ID: 0
+                Latest Action: None
+                Failure Type: execution_failure
+                YAML Path: /Users/yilunli/Desktop/moar_experiments/moar_experiments/reproduce_moar/medical_transcript_py_api/moar_results/pipeline_openai_gpt-5.1-mini.yaml
+                Error Message: litellm.UnsupportedParamsError: openai does not support parameters: ['tool_choice'], for model=gpt-5.1-mini. To drop these, set `litellm.drop_params=True` or for proxy:
+
+`litellm_settings:
+ drop_params: true`
+. 
+ If you want to use these params dynamically send allowed_openai_params=['tool_choice'] in your request.
+                ================================================================================
+                
+                ================================================================================
+                Timestamp: 2026-03-25 20:12:07
+                Node ID: 1
+                Parent ID: 0
+                Latest Action: None
+                Failure Type: simulation_execution_failure
+                YAML Path: /Users/yilunli/Desktop/moar_experiments/moar_experiments/reproduce_moar/medical_transcript_py_api/moar_results/pipeline_openai_gpt-5.1-mini.yaml
+                Error Message: Failed to execute plan /Users/yilunli/Desktop/moar_experiments/moar_experiments/reproduce_moar/medical_transcript_py_api/moar_results/pipeline_openai_gpt-5.1-mini.yaml: litellm.UnsupportedParamsError: openai does not support parameters: ['tool_choice'], for model=gpt-5.1-mini. To drop these, set `litellm.drop_params=True` or for proxy:
+
+`litellm_settings:
+ drop_params: true`
+. 
+ If you want to use these params dynamically send allowed_openai_params=['tool_choice'] in your request.
+                ================================================================================
+                
+                ================================================================================
+                Timestamp: 2026-03-25 20:22:46
+                Node ID: 1
+                Parent ID: 0
+                Latest Action: None
+                Failure Type: execution_failure
+                YAML Path: /Users/yilunli/Desktop/moar_experiments/moar_experiments/reproduce_moar/medical_transcript_py_api/moar_results/pipeline_openai_gpt-5.1-mini.yaml
+                Error Message: litellm.UnsupportedParamsError: openai does not support parameters: ['tool_choice'], for model=gpt-5.1-mini. To drop these, set `litellm.drop_params=True` or for proxy:
+
+`litellm_settings:
+ drop_params: true`
+. 
+ If you want to use these params dynamically send allowed_openai_params=['tool_choice'] in your request.
+                ================================================================================
+                
+                ================================================================================
+                Timestamp: 2026-03-25 20:22:46
+                Node ID: 1
+                Parent ID: 0
+                Latest Action: None
+                Failure Type: simulation_execution_failure
+                YAML Path: /Users/yilunli/Desktop/moar_experiments/moar_experiments/reproduce_moar/medical_transcript_py_api/moar_results/pipeline_openai_gpt-5.1-mini.yaml
+                Error Message: Failed to execute plan /Users/yilunli/Desktop/moar_experiments/moar_experiments/reproduce_moar/medical_transcript_py_api/moar_results/pipeline_openai_gpt-5.1-mini.yaml: litellm.UnsupportedParamsError: openai does not support parameters: ['tool_choice'], for model=gpt-5.1-mini. To drop these, set `litellm.drop_params=True` or for proxy:
+
+`litellm_settings:
+ drop_params: true`
+. 
+ If you want to use these params dynamically send allowed_openai_params=['tool_choice'] in your request.
+                ================================================================================
+                
+                ================================================================================
+                Timestamp: 2026-03-25 20:27:59
+                Node ID: 1
+                Parent ID: 0
+                Latest Action: None
+                Failure Type: execution_failure
+                YAML Path: /Users/yilunli/Desktop/moar_experiments/moar_experiments/reproduce_moar/medical_transcript_py_api/moar_results/pipeline_openai_gpt-5.1-mini.yaml
+                Error Message: litellm.UnsupportedParamsError: openai does not support parameters: ['tool_choice'], for model=gpt-5.1-mini. To drop these, set `litellm.drop_params=True` or for proxy:
+
+`litellm_settings:
+ drop_params: true`
+. 
+ If you want to use these params dynamically send allowed_openai_params=['tool_choice'] in your request.
+                ================================================================================
+                
+                ================================================================================
+                Timestamp: 2026-03-25 20:27:59
+                Node ID: 1
+                Parent ID: 0
+                Latest Action: None
+                Failure Type: simulation_execution_failure
+                YAML Path: /Users/yilunli/Desktop/moar_experiments/moar_experiments/reproduce_moar/medical_transcript_py_api/moar_results/pipeline_openai_gpt-5.1-mini.yaml
+                Error Message: Failed to execute plan /Users/yilunli/Desktop/moar_experiments/moar_experiments/reproduce_moar/medical_transcript_py_api/moar_results/pipeline_openai_gpt-5.1-mini.yaml: litellm.UnsupportedParamsError: openai does not support parameters: ['tool_choice'], for model=gpt-5.1-mini. To drop these, set `litellm.drop_params=True` or for proxy:
+
+`litellm_settings:
+ drop_params: true`
+. 
+ If you want to use these params dynamically send allowed_openai_params=['tool_choice'] in your request.
+                ================================================================================
+                
+                ================================================================================
+                Timestamp: 2026-03-25 20:31:24
+                Node ID: 1
+                Parent ID: 0
+                Latest Action: None
+                Failure Type: execution_failure
+                YAML Path: /Users/yilunli/Desktop/moar_experiments/moar_experiments/reproduce_moar/medical_transcript_py_api/moar_results/pipeline_openai_gpt-5.1-mini.yaml
+                Error Message: litellm.UnsupportedParamsError: openai does not support parameters: ['tool_choice'], for model=gpt-5.1-mini. To drop these, set `litellm.drop_params=True` or for proxy:
+
+`litellm_settings:
+ drop_params: true`
+. 
+ If you want to use these params dynamically send allowed_openai_params=['tool_choice'] in your request.
+                ================================================================================
+                
+                ================================================================================
+                Timestamp: 2026-03-25 20:31:24
+                Node ID: 1
+                Parent ID: 0
+                Latest Action: None
+                Failure Type: simulation_execution_failure
+                YAML Path: /Users/yilunli/Desktop/moar_experiments/moar_experiments/reproduce_moar/medical_transcript_py_api/moar_results/pipeline_openai_gpt-5.1-mini.yaml
+                Error Message: Failed to execute plan /Users/yilunli/Desktop/moar_experiments/moar_experiments/reproduce_moar/medical_transcript_py_api/moar_results/pipeline_openai_gpt-5.1-mini.yaml: litellm.UnsupportedParamsError: openai does not support parameters: ['tool_choice'], for model=gpt-5.1-mini. To drop these, set `litellm.drop_params=True` or for proxy:
+
+`litellm_settings:
+ drop_params: true`
+. 
+ If you want to use these params dynamically send allowed_openai_params=['tool_choice'] in your request.
+                ================================================================================
+                
+                ================================================================================
+                Timestamp: 2026-03-25 20:33:07
+                Node ID: 1
+                Parent ID: 0
+                Latest Action: None
+                Failure Type: execution_failure
+                YAML Path: /Users/yilunli/Desktop/moar_experiments/moar_experiments/reproduce_moar/medical_transcript_py_api/moar_results/pipeline_openai_gpt-5.1-mini.yaml
+                Error Message: litellm.UnsupportedParamsError: openai does not support parameters: ['tool_choice'], for model=gpt-5.1-mini. To drop these, set `litellm.drop_params=True` or for proxy:
+
+`litellm_settings:
+ drop_params: true`
+. 
+ If you want to use these params dynamically send allowed_openai_params=['tool_choice'] in your request.
+                ================================================================================
+                
+                ================================================================================
+                Timestamp: 2026-03-25 20:33:07
+                Node ID: 1
+                Parent ID: 0
+                Latest Action: None
+                Failure Type: simulation_execution_failure
+                YAML Path: /Users/yilunli/Desktop/moar_experiments/moar_experiments/reproduce_moar/medical_transcript_py_api/moar_results/pipeline_openai_gpt-5.1-mini.yaml
+                Error Message: Failed to execute plan /Users/yilunli/Desktop/moar_experiments/moar_experiments/reproduce_moar/medical_transcript_py_api/moar_results/pipeline_openai_gpt-5.1-mini.yaml: litellm.UnsupportedParamsError: openai does not support parameters: ['tool_choice'], for model=gpt-5.1-mini. To drop these, set `litellm.drop_params=True` or for proxy:
+
+`litellm_settings:
+ drop_params: true`
+. 
+ If you want to use these params dynamically send allowed_openai_params=['tool_choice'] in your request.
+                ================================================================================
+                
+                ================================================================================
+                Timestamp: 2026-03-25 20:33:42
+                Node ID: 1
+                Parent ID: 0
+                Latest Action: None
+                Failure Type: execution_failure
+                YAML Path: /Users/yilunli/Desktop/moar_experiments/moar_experiments/reproduce_moar/medical_transcript_py_api/moar_results/pipeline_openai_gpt-5.1-mini.yaml
+                Error Message: litellm.UnsupportedParamsError: openai does not support parameters: ['tool_choice'], for model=gpt-5.1-mini. To drop these, set `litellm.drop_params=True` or for proxy:
+
+`litellm_settings:
+ drop_params: true`
+. 
+ If you want to use these params dynamically send allowed_openai_params=['tool_choice'] in your request.
+                ================================================================================
+                
+                ================================================================================
+                Timestamp: 2026-03-25 20:33:42
+                Node ID: 1
+                Parent ID: 0
+                Latest Action: None
+                Failure Type: simulation_execution_failure
+                YAML Path: /Users/yilunli/Desktop/moar_experiments/moar_experiments/reproduce_moar/medical_transcript_py_api/moar_results/pipeline_openai_gpt-5.1-mini.yaml
+                Error Message: Failed to execute plan /Users/yilunli/Desktop/moar_experiments/moar_experiments/reproduce_moar/medical_transcript_py_api/moar_results/pipeline_openai_gpt-5.1-mini.yaml: litellm.UnsupportedParamsError: openai does not support parameters: ['tool_choice'], for model=gpt-5.1-mini. To drop these, set `litellm.drop_params=True` or for proxy:
+
+`litellm_settings:
+ drop_params: true`
+. 
+ If you want to use these params dynamically send allowed_openai_params=['tool_choice'] in your request.
+                ================================================================================
+                
+                ================================================================================
+                Timestamp: 2026-03-25 20:38:45
+                Node ID: 1
+                Parent ID: 0
+                Latest Action: None
+                Failure Type: execution_failure
+                YAML Path: /Users/yilunli/Desktop/moar_experiments/moar_experiments/reproduce_moar/medical_transcript_py_api/moar_results/pipeline_openai_gpt-5.1-mini.yaml
+                Error Message: litellm.UnsupportedParamsError: openai does not support parameters: ['tool_choice'], for model=gpt-5.1-mini. To drop these, set `litellm.drop_params=True` or for proxy:
+
+`litellm_settings:
+ drop_params: true`
+. 
+ If you want to use these params dynamically send allowed_openai_params=['tool_choice'] in your request.
+                ================================================================================
+                
+                ================================================================================
+                Timestamp: 2026-03-25 20:38:45
+                Node ID: 1
+                Parent ID: 0
+                Latest Action: None
+                Failure Type: simulation_execution_failure
+                YAML Path: /Users/yilunli/Desktop/moar_experiments/moar_experiments/reproduce_moar/medical_transcript_py_api/moar_results/pipeline_openai_gpt-5.1-mini.yaml
+                Error Message: Failed to execute plan /Users/yilunli/Desktop/moar_experiments/moar_experiments/reproduce_moar/medical_transcript_py_api/moar_results/pipeline_openai_gpt-5.1-mini.yaml: litellm.UnsupportedParamsError: openai does not support parameters: ['tool_choice'], for model=gpt-5.1-mini. To drop these, set `litellm.drop_params=True` or for proxy:
+
+`litellm_settings:
+ drop_params: true`
+. 
+ If you want to use these params dynamically send allowed_openai_params=['tool_choice'] in your request.
+                ================================================================================
+                
+                ================================================================================
+                Timestamp: 2026-03-25 20:39:58
+                Node ID: 1
+                Parent ID: 0
+                Latest Action: None
+                Failure Type: execution_failure
+                YAML Path: /Users/yilunli/Desktop/moar_experiments/moar_experiments/reproduce_moar/medical_transcript_py_api/moar_results/pipeline_openai_gpt-5.1-mini.yaml
+                Error Message: litellm.UnsupportedParamsError: openai does not support parameters: ['tool_choice'], for model=gpt-5.1-mini. To drop these, set `litellm.drop_params=True` or for proxy:
+
+`litellm_settings:
+ drop_params: true`
+. 
+ If you want to use these params dynamically send allowed_openai_params=['tool_choice'] in your request.
+                ================================================================================
+                
+                ================================================================================
+                Timestamp: 2026-03-25 20:39:58
+                Node ID: 1
+                Parent ID: 0
+                Latest Action: None
+                Failure Type: simulation_execution_failure
+                YAML Path: /Users/yilunli/Desktop/moar_experiments/moar_experiments/reproduce_moar/medical_transcript_py_api/moar_results/pipeline_openai_gpt-5.1-mini.yaml
+                Error Message: Failed to execute plan /Users/yilunli/Desktop/moar_experiments/moar_experiments/reproduce_moar/medical_transcript_py_api/moar_results/pipeline_openai_gpt-5.1-mini.yaml: litellm.UnsupportedParamsError: openai does not support parameters: ['tool_choice'], for model=gpt-5.1-mini. To drop these, set `litellm.drop_params=True` or for proxy:
+
+`litellm_settings:
+ drop_params: true`
+. 
+ If you want to use these params dynamically send allowed_openai_params=['tool_choice'] in your request.
+                ================================================================================
+                
+                ================================================================================
+                Timestamp: 2026-03-25 20:50:22
+                Node ID: 1
+                Parent ID: 0
+                Latest Action: None
+                Failure Type: execution_failure
+                YAML Path: /Users/yilunli/Desktop/moar_experiments/moar_experiments/reproduce_moar/medical_transcript_py_api/moar_results/pipeline_openai_gpt-5.1-mini.yaml
+                Error Message: litellm.UnsupportedParamsError: openai does not support parameters: ['tool_choice'], for model=gpt-5.1-mini. To drop these, set `litellm.drop_params=True` or for proxy:
+
+`litellm_settings:
+ drop_params: true`
+. 
+ If you want to use these params dynamically send allowed_openai_params=['tool_choice'] in your request.
+                ================================================================================
+                
+                ================================================================================
+                Timestamp: 2026-03-25 20:50:22
+                Node ID: 1
+                Parent ID: 0
+                Latest Action: None
+                Failure Type: simulation_execution_failure
+                YAML Path: /Users/yilunli/Desktop/moar_experiments/moar_experiments/reproduce_moar/medical_transcript_py_api/moar_results/pipeline_openai_gpt-5.1-mini.yaml
+                Error Message: Failed to execute plan /Users/yilunli/Desktop/moar_experiments/moar_experiments/reproduce_moar/medical_transcript_py_api/moar_results/pipeline_openai_gpt-5.1-mini.yaml: litellm.UnsupportedParamsError: openai does not support parameters: ['tool_choice'], for model=gpt-5.1-mini. To drop these, set `litellm.drop_params=True` or for proxy:
+
+`litellm_settings:
+ drop_params: true`
+. 
+ If you want to use these params dynamically send allowed_openai_params=['tool_choice'] in your request.
+                ================================================================================
+                
+                ================================================================================
+                Timestamp: 2026-03-25 20:50:52
+                Node ID: 1
+                Parent ID: 0
+                Latest Action: None
+                Failure Type: execution_failure
+                YAML Path: /Users/yilunli/Desktop/moar_experiments/moar_experiments/reproduce_moar/medical_transcript_py_api/moar_results/pipeline_openai_gpt-5.1-mini.yaml
+                Error Message: litellm.UnsupportedParamsError: openai does not support parameters: ['tool_choice'], for model=gpt-5.1-mini. To drop these, set `litellm.drop_params=True` or for proxy:
+
+`litellm_settings:
+ drop_params: true`
+. 
+ If you want to use these params dynamically send allowed_openai_params=['tool_choice'] in your request.
+                ================================================================================
+                
+                ================================================================================
+                Timestamp: 2026-03-25 20:50:52
+                Node ID: 1
+                Parent ID: 0
+                Latest Action: None
+                Failure Type: simulation_execution_failure
+                YAML Path: /Users/yilunli/Desktop/moar_experiments/moar_experiments/reproduce_moar/medical_transcript_py_api/moar_results/pipeline_openai_gpt-5.1-mini.yaml
+                Error Message: Failed to execute plan /Users/yilunli/Desktop/moar_experiments/moar_experiments/reproduce_moar/medical_transcript_py_api/moar_results/pipeline_openai_gpt-5.1-mini.yaml: litellm.UnsupportedParamsError: openai does not support parameters: ['tool_choice'], for model=gpt-5.1-mini. To drop these, set `litellm.drop_params=True` or for proxy:
+
+`litellm_settings:
+ drop_params: true`
+. 
+ If you want to use these params dynamically send allowed_openai_params=['tool_choice'] in your request.
+                ================================================================================
+                
+                ================================================================================
+                Timestamp: 2026-03-25 21:00:39
+                Node ID: 1
+                Parent ID: 0
+                Latest Action: None
+                Failure Type: execution_failure
+                YAML Path: /Users/yilunli/Desktop/moar_experiments/moar_experiments/reproduce_moar/medical_transcript_py_api/moar_results/pipeline_openai_gpt-5.1-mini.yaml
+                Error Message: litellm.UnsupportedParamsError: openai does not support parameters: ['tool_choice'], for model=gpt-5.1-mini. To drop these, set `litellm.drop_params=True` or for proxy:
+
+`litellm_settings:
+ drop_params: true`
+. 
+ If you want to use these params dynamically send allowed_openai_params=['tool_choice'] in your request.
+                ================================================================================
+                
+                ================================================================================
+                Timestamp: 2026-03-25 21:00:39
+                Node ID: 1
+                Parent ID: 0
+                Latest Action: None
+                Failure Type: simulation_execution_failure
+                YAML Path: /Users/yilunli/Desktop/moar_experiments/moar_experiments/reproduce_moar/medical_transcript_py_api/moar_results/pipeline_openai_gpt-5.1-mini.yaml
+                Error Message: Failed to execute plan /Users/yilunli/Desktop/moar_experiments/moar_experiments/reproduce_moar/medical_transcript_py_api/moar_results/pipeline_openai_gpt-5.1-mini.yaml: litellm.UnsupportedParamsError: openai does not support parameters: ['tool_choice'], for model=gpt-5.1-mini. To drop these, set `litellm.drop_params=True` or for proxy:
+
+`litellm_settings:
+ drop_params: true`
+. 
+ If you want to use these params dynamically send allowed_openai_params=['tool_choice'] in your request.
+                ================================================================================
+                
+                ================================================================================
+                Timestamp: 2026-03-25 21:21:05
+                Node ID: 1
+                Parent ID: 0
+                Latest Action: None
+                Failure Type: execution_failure
+                YAML Path: /Users/yilunli/Desktop/moar_experiments/moar_experiments/reproduce_moar/medical_transcript_py_api/moar_results/pipeline_openai_gpt-5.1-mini.yaml
+                Error Message: litellm.UnsupportedParamsError: openai does not support parameters: ['tool_choice'], for model=gpt-5.1-mini. To drop these, set `litellm.drop_params=True` or for proxy:
+
+`litellm_settings:
+ drop_params: true`
+. 
+ If you want to use these params dynamically send allowed_openai_params=['tool_choice'] in your request.
+                ================================================================================
+                
+                ================================================================================
+                Timestamp: 2026-03-25 21:21:05
+                Node ID: 1
+                Parent ID: 0
+                Latest Action: None
+                Failure Type: simulation_execution_failure
+                YAML Path: /Users/yilunli/Desktop/moar_experiments/moar_experiments/reproduce_moar/medical_transcript_py_api/moar_results/pipeline_openai_gpt-5.1-mini.yaml
+                Error Message: Failed to execute plan /Users/yilunli/Desktop/moar_experiments/moar_experiments/reproduce_moar/medical_transcript_py_api/moar_results/pipeline_openai_gpt-5.1-mini.yaml: litellm.UnsupportedParamsError: openai does not support parameters: ['tool_choice'], for model=gpt-5.1-mini. To drop these, set `litellm.drop_params=True` or for proxy:
+
+`litellm_settings:
+ drop_params: true`
+. 
+ If you want to use these params dynamically send allowed_openai_params=['tool_choice'] in your request.
+                ================================================================================
+                
+                ================================================================================
+                Timestamp: 2026-03-25 21:32:42
+                Node ID: 1
+                Parent ID: 0
+                Latest Action: None
+                Failure Type: execution_failure
+                YAML Path: /Users/yilunli/Desktop/moar_experiments/moar_experiments/reproduce_moar/medical_transcript_py_api/moar_results/pipeline_openai_gpt-5.1-mini.yaml
+                Error Message: litellm.UnsupportedParamsError: openai does not support parameters: ['tool_choice'], for model=gpt-5.1-mini. To drop these, set `litellm.drop_params=True` or for proxy:
+
+`litellm_settings:
+ drop_params: true`
+. 
+ If you want to use these params dynamically send allowed_openai_params=['tool_choice'] in your request.
+                ================================================================================
+                
+                ================================================================================
+                Timestamp: 2026-03-25 21:32:42
+                Node ID: 1
+                Parent ID: 0
+                Latest Action: None
+                Failure Type: simulation_execution_failure
+                YAML Path: /Users/yilunli/Desktop/moar_experiments/moar_experiments/reproduce_moar/medical_transcript_py_api/moar_results/pipeline_openai_gpt-5.1-mini.yaml
+                Error Message: Failed to execute plan /Users/yilunli/Desktop/moar_experiments/moar_experiments/reproduce_moar/medical_transcript_py_api/moar_results/pipeline_openai_gpt-5.1-mini.yaml: litellm.UnsupportedParamsError: openai does not support parameters: ['tool_choice'], for model=gpt-5.1-mini. To drop these, set `litellm.drop_params=True` or for proxy:
+
+`litellm_settings:
+ drop_params: true`
+. 
+ If you want to use these params dynamically send allowed_openai_params=['tool_choice'] in your request.
+                ================================================================================
+                
+                ================================================================================
+                Timestamp: 2026-03-25 21:33:33
+                Node ID: 1
+                Parent ID: 0
+                Latest Action: None
+                Failure Type: execution_failure
+                YAML Path: /Users/yilunli/Desktop/moar_experiments/moar_experiments/reproduce_moar/medical_transcript_py_api/moar_results/pipeline_openai_gpt-5.1-mini.yaml
+                Error Message: litellm.UnsupportedParamsError: openai does not support parameters: ['tool_choice'], for model=gpt-5.1-mini. To drop these, set `litellm.drop_params=True` or for proxy:
+
+`litellm_settings:
+ drop_params: true`
+. 
+ If you want to use these params dynamically send allowed_openai_params=['tool_choice'] in your request.
+                ================================================================================
+                
+                ================================================================================
+                Timestamp: 2026-03-25 21:33:33
+                Node ID: 1
+                Parent ID: 0
+                Latest Action: None
+                Failure Type: simulation_execution_failure
+                YAML Path: /Users/yilunli/Desktop/moar_experiments/moar_experiments/reproduce_moar/medical_transcript_py_api/moar_results/pipeline_openai_gpt-5.1-mini.yaml
+                Error Message: Failed to execute plan /Users/yilunli/Desktop/moar_experiments/moar_experiments/reproduce_moar/medical_transcript_py_api/moar_results/pipeline_openai_gpt-5.1-mini.yaml: litellm.UnsupportedParamsError: openai does not support parameters: ['tool_choice'], for model=gpt-5.1-mini. To drop these, set `litellm.drop_params=True` or for proxy:
+
+`litellm_settings:
+ drop_params: true`
+. 
+ If you want to use these params dynamically send allowed_openai_params=['tool_choice'] in your request.
+                ================================================================================
+                
+                ================================================================================
+                Timestamp: 2026-03-25 21:34:01
+                Node ID: 1
+                Parent ID: 0
+                Latest Action: None
+                Failure Type: execution_failure
+                YAML Path: /Users/yilunli/Desktop/moar_experiments/moar_experiments/reproduce_moar/medical_transcript_py_api/moar_results/pipeline_openai_gpt-5.1-mini.yaml
+                Error Message: litellm.UnsupportedParamsError: openai does not support parameters: ['tool_choice'], for model=gpt-5.1-mini. To drop these, set `litellm.drop_params=True` or for proxy:
+
+`litellm_settings:
+ drop_params: true`
+. 
+ If you want to use these params dynamically send allowed_openai_params=['tool_choice'] in your request.
+                ================================================================================
+                
+                ================================================================================
+                Timestamp: 2026-03-25 21:34:01
+                Node ID: 1
+                Parent ID: 0
+                Latest Action: None
+                Failure Type: simulation_execution_failure
+                YAML Path: /Users/yilunli/Desktop/moar_experiments/moar_experiments/reproduce_moar/medical_transcript_py_api/moar_results/pipeline_openai_gpt-5.1-mini.yaml
+                Error Message: Failed to execute plan /Users/yilunli/Desktop/moar_experiments/moar_experiments/reproduce_moar/medical_transcript_py_api/moar_results/pipeline_openai_gpt-5.1-mini.yaml: litellm.UnsupportedParamsError: openai does not support parameters: ['tool_choice'], for model=gpt-5.1-mini. To drop these, set `litellm.drop_params=True` or for proxy:
+
+`litellm_settings:
+ drop_params: true`
+. 
+ If you want to use these params dynamically send allowed_openai_params=['tool_choice'] in your request.
+                ================================================================================
+                
+                ================================================================================
+                Timestamp: 2026-03-25 21:35:11
+                Node ID: 1
+                Parent ID: 0
+                Latest Action: None
+                Failure Type: execution_failure
+                YAML Path: /Users/yilunli/Desktop/moar_experiments/moar_experiments/reproduce_moar/medical_transcript_py_api/moar_results/pipeline_openai_gpt-5.1-mini.yaml
+                Error Message: litellm.UnsupportedParamsError: openai does not support parameters: ['tool_choice'], for model=gpt-5.1-mini. To drop these, set `litellm.drop_params=True` or for proxy:
+
+`litellm_settings:
+ drop_params: true`
+. 
+ If you want to use these params dynamically send allowed_openai_params=['tool_choice'] in your request.
+                ================================================================================
+                
+                ================================================================================
+                Timestamp: 2026-03-25 21:35:11
+                Node ID: 1
+                Parent ID: 0
+                Latest Action: None
+                Failure Type: simulation_execution_failure
+                YAML Path: /Users/yilunli/Desktop/moar_experiments/moar_experiments/reproduce_moar/medical_transcript_py_api/moar_results/pipeline_openai_gpt-5.1-mini.yaml
+                Error Message: Failed to execute plan /Users/yilunli/Desktop/moar_experiments/moar_experiments/reproduce_moar/medical_transcript_py_api/moar_results/pipeline_openai_gpt-5.1-mini.yaml: litellm.UnsupportedParamsError: openai does not support parameters: ['tool_choice'], for model=gpt-5.1-mini. To drop these, set `litellm.drop_params=True` or for proxy:
+
+`litellm_settings:
+ drop_params: true`
+. 
+ If you want to use these params dynamically send allowed_openai_params=['tool_choice'] in your request.
+                ================================================================================
+                
+                ================================================================================
+                Timestamp: 2026-03-25 21:39:02
+                Node ID: 1
+                Parent ID: 0
+                Latest Action: None
+                Failure Type: execution_failure
+                YAML Path: /Users/yilunli/Desktop/moar_experiments/moar_experiments/reproduce_moar/medical_transcript_py_api/moar_results/pipeline_openai_gpt-5.1-mini.yaml
+                Error Message: litellm.UnsupportedParamsError: openai does not support parameters: ['tool_choice'], for model=gpt-5.1-mini. To drop these, set `litellm.drop_params=True` or for proxy:
+
+`litellm_settings:
+ drop_params: true`
+. 
+ If you want to use these params dynamically send allowed_openai_params=['tool_choice'] in your request.
+                ================================================================================
+                
+                ================================================================================
+                Timestamp: 2026-03-25 21:39:02
+                Node ID: 1
+                Parent ID: 0
+                Latest Action: None
+                Failure Type: simulation_execution_failure
+                YAML Path: /Users/yilunli/Desktop/moar_experiments/moar_experiments/reproduce_moar/medical_transcript_py_api/moar_results/pipeline_openai_gpt-5.1-mini.yaml
+                Error Message: Failed to execute plan /Users/yilunli/Desktop/moar_experiments/moar_experiments/reproduce_moar/medical_transcript_py_api/moar_results/pipeline_openai_gpt-5.1-mini.yaml: litellm.UnsupportedParamsError: openai does not support parameters: ['tool_choice'], for model=gpt-5.1-mini. To drop these, set `litellm.drop_params=True` or for proxy:
+
+`litellm_settings:
+ drop_params: true`
+. 
+ If you want to use these params dynamically send allowed_openai_params=['tool_choice'] in your request.
+                ================================================================================
+                
+                ================================================================================
+                Timestamp: 2026-03-25 21:41:05
+                Node ID: 1
+                Parent ID: 0
+                Latest Action: None
+                Failure Type: execution_failure
+                YAML Path: /Users/yilunli/Desktop/moar_experiments/moar_experiments/reproduce_moar/medical_transcript_py_api/moar_results/pipeline_openai_gpt-5.1-mini.yaml
+                Error Message: litellm.UnsupportedParamsError: openai does not support parameters: ['tool_choice'], for model=gpt-5.1-mini. To drop these, set `litellm.drop_params=True` or for proxy:
+
+`litellm_settings:
+ drop_params: true`
+. 
+ If you want to use these params dynamically send allowed_openai_params=['tool_choice'] in your request.
+                ================================================================================
+                
+                ================================================================================
+                Timestamp: 2026-03-25 21:41:05
+                Node ID: 1
+                Parent ID: 0
+                Latest Action: None
+                Failure Type: simulation_execution_failure
+                YAML Path: /Users/yilunli/Desktop/moar_experiments/moar_experiments/reproduce_moar/medical_transcript_py_api/moar_results/pipeline_openai_gpt-5.1-mini.yaml
+                Error Message: Failed to execute plan /Users/yilunli/Desktop/moar_experiments/moar_experiments/reproduce_moar/medical_transcript_py_api/moar_results/pipeline_openai_gpt-5.1-mini.yaml: litellm.UnsupportedParamsError: openai does not support parameters: ['tool_choice'], for model=gpt-5.1-mini. To drop these, set `litellm.drop_params=True` or for proxy:
+
+`litellm_settings:
+ drop_params: true`
+. 
+ If you want to use these params dynamically send allowed_openai_params=['tool_choice'] in your request.
+                ================================================================================
+                
+                ================================================================================
+                Timestamp: 2026-03-25 21:44:40
+                Node ID: 1
+                Parent ID: 0
+                Latest Action: None
+                Failure Type: execution_failure
+                YAML Path: /Users/yilunli/Desktop/moar_experiments/moar_experiments/reproduce_moar/medical_transcript_py_api/moar_results/pipeline_openai_gpt-5.1-mini.yaml
+                Error Message: litellm.UnsupportedParamsError: openai does not support parameters: ['tool_choice'], for model=gpt-5.1-mini. To drop these, set `litellm.drop_params=True` or for proxy:
+
+`litellm_settings:
+ drop_params: true`
+. 
+ If you want to use these params dynamically send allowed_openai_params=['tool_choice'] in your request.
+                ================================================================================
+                
+                ================================================================================
+                Timestamp: 2026-03-25 21:44:40
+                Node ID: 1
+                Parent ID: 0
+                Latest Action: None
+                Failure Type: simulation_execution_failure
+                YAML Path: /Users/yilunli/Desktop/moar_experiments/moar_experiments/reproduce_moar/medical_transcript_py_api/moar_results/pipeline_openai_gpt-5.1-mini.yaml
+                Error Message: Failed to execute plan /Users/yilunli/Desktop/moar_experiments/moar_experiments/reproduce_moar/medical_transcript_py_api/moar_results/pipeline_openai_gpt-5.1-mini.yaml: litellm.UnsupportedParamsError: openai does not support parameters: ['tool_choice'], for model=gpt-5.1-mini. To drop these, set `litellm.drop_params=True` or for proxy:
+
+`litellm_settings:
+ drop_params: true`
+. 
+ If you want to use these params dynamically send allowed_openai_params=['tool_choice'] in your request.
+                ================================================================================
+                
+                ================================================================================
+                Timestamp: 2026-03-25 21:46:43
+                Node ID: 1
+                Parent ID: 0
+                Latest Action: None
+                Failure Type: execution_failure
+                YAML Path: /Users/yilunli/Desktop/moar_experiments/moar_experiments/reproduce_moar/medical_transcript_py_api/moar_results/pipeline_openai_gpt-5.1-mini.yaml
+                Error Message: litellm.UnsupportedParamsError: openai does not support parameters: ['tool_choice'], for model=gpt-5.1-mini. To drop these, set `litellm.drop_params=True` or for proxy:
+
+`litellm_settings:
+ drop_params: true`
+. 
+ If you want to use these params dynamically send allowed_openai_params=['tool_choice'] in your request.
+                ================================================================================
+                
+                ================================================================================
+                Timestamp: 2026-03-25 21:46:43
+                Node ID: 1
+                Parent ID: 0
+                Latest Action: None
+                Failure Type: simulation_execution_failure
+                YAML Path: /Users/yilunli/Desktop/moar_experiments/moar_experiments/reproduce_moar/medical_transcript_py_api/moar_results/pipeline_openai_gpt-5.1-mini.yaml
+                Error Message: Failed to execute plan /Users/yilunli/Desktop/moar_experiments/moar_experiments/reproduce_moar/medical_transcript_py_api/moar_results/pipeline_openai_gpt-5.1-mini.yaml: litellm.UnsupportedParamsError: openai does not support parameters: ['tool_choice'], for model=gpt-5.1-mini. To drop these, set `litellm.drop_params=True` or for proxy:
+
+`litellm_settings:
+ drop_params: true`
+. 
+ If you want to use these params dynamically send allowed_openai_params=['tool_choice'] in your request.
+                ================================================================================
+                
+                ================================================================================
+                Timestamp: 2026-03-25 21:49:50
+                Node ID: 1
+                Parent ID: 0
+                Latest Action: None
+                Failure Type: execution_failure
+                YAML Path: /Users/yilunli/Desktop/moar_experiments/moar_experiments/reproduce_moar/medical_transcript_py_api/moar_results/pipeline_openai_gpt-5.1-mini.yaml
+                Error Message: litellm.UnsupportedParamsError: openai does not support parameters: ['tool_choice'], for model=gpt-5.1-mini. To drop these, set `litellm.drop_params=True` or for proxy:
+
+`litellm_settings:
+ drop_params: true`
+. 
+ If you want to use these params dynamically send allowed_openai_params=['tool_choice'] in your request.
+                ================================================================================
+                
+                ================================================================================
+                Timestamp: 2026-03-25 21:49:50
+                Node ID: 1
+                Parent ID: 0
+                Latest Action: None
+                Failure Type: simulation_execution_failure
+                YAML Path: /Users/yilunli/Desktop/moar_experiments/moar_experiments/reproduce_moar/medical_transcript_py_api/moar_results/pipeline_openai_gpt-5.1-mini.yaml
+                Error Message: Failed to execute plan /Users/yilunli/Desktop/moar_experiments/moar_experiments/reproduce_moar/medical_transcript_py_api/moar_results/pipeline_openai_gpt-5.1-mini.yaml: litellm.UnsupportedParamsError: openai does not support parameters: ['tool_choice'], for model=gpt-5.1-mini. To drop these, set `litellm.drop_params=True` or for proxy:
+
+`litellm_settings:
+ drop_params: true`
+. 
+ If you want to use these params dynamically send allowed_openai_params=['tool_choice'] in your request.
+                ================================================================================
+                
+                ================================================================================
+                Timestamp: 2026-03-25 21:52:34
+                Node ID: 1
+                Parent ID: 0
+                Latest Action: None
+                Failure Type: execution_failure
+                YAML Path: /Users/yilunli/Desktop/moar_experiments/moar_experiments/reproduce_moar/medical_transcript_py_api/moar_results/pipeline_openai_gpt-5.1-mini.yaml
+                Error Message: litellm.UnsupportedParamsError: openai does not support parameters: ['tool_choice'], for model=gpt-5.1-mini. To drop these, set `litellm.drop_params=True` or for proxy:
+
+`litellm_settings:
+ drop_params: true`
+. 
+ If you want to use these params dynamically send allowed_openai_params=['tool_choice'] in your request.
+                ================================================================================
+                
+                ================================================================================
+                Timestamp: 2026-03-25 21:52:34
+                Node ID: 1
+                Parent ID: 0
+                Latest Action: None
+                Failure Type: simulation_execution_failure
+                YAML Path: /Users/yilunli/Desktop/moar_experiments/moar_experiments/reproduce_moar/medical_transcript_py_api/moar_results/pipeline_openai_gpt-5.1-mini.yaml
+                Error Message: Failed to execute plan /Users/yilunli/Desktop/moar_experiments/moar_experiments/reproduce_moar/medical_transcript_py_api/moar_results/pipeline_openai_gpt-5.1-mini.yaml: litellm.UnsupportedParamsError: openai does not support parameters: ['tool_choice'], for model=gpt-5.1-mini. To drop these, set `litellm.drop_params=True` or for proxy:
+
+`litellm_settings:
+ drop_params: true`
+. 
+ If you want to use these params dynamically send allowed_openai_params=['tool_choice'] in your request.
+                ================================================================================
+                
+                ================================================================================
+                Timestamp: 2026-03-25 21:53:51
+                Node ID: 1
+                Parent ID: 0
+                Latest Action: None
+                Failure Type: execution_failure
+                YAML Path: /Users/yilunli/Desktop/moar_experiments/moar_experiments/reproduce_moar/medical_transcript_py_api/moar_results/pipeline_openai_gpt-5.1-mini.yaml
+                Error Message: litellm.UnsupportedParamsError: openai does not support parameters: ['tool_choice'], for model=gpt-5.1-mini. To drop these, set `litellm.drop_params=True` or for proxy:
+
+`litellm_settings:
+ drop_params: true`
+. 
+ If you want to use these params dynamically send allowed_openai_params=['tool_choice'] in your request.
+                ================================================================================
+                
+                ================================================================================
+                Timestamp: 2026-03-25 21:53:51
+                Node ID: 1
+                Parent ID: 0
+                Latest Action: None
+                Failure Type: simulation_execution_failure
+                YAML Path: /Users/yilunli/Desktop/moar_experiments/moar_experiments/reproduce_moar/medical_transcript_py_api/moar_results/pipeline_openai_gpt-5.1-mini.yaml
+                Error Message: Failed to execute plan /Users/yilunli/Desktop/moar_experiments/moar_experiments/reproduce_moar/medical_transcript_py_api/moar_results/pipeline_openai_gpt-5.1-mini.yaml: litellm.UnsupportedParamsError: openai does not support parameters: ['tool_choice'], for model=gpt-5.1-mini. To drop these, set `litellm.drop_params=True` or for proxy:
+
+`litellm_settings:
+ drop_params: true`
+. 
+ If you want to use these params dynamically send allowed_openai_params=['tool_choice'] in your request.
+                ================================================================================
+                
+                ================================================================================
+                Timestamp: 2026-03-25 22:06:07
+                Node ID: 1
+                Parent ID: 0
+                Latest Action: None
+                Failure Type: execution_failure
+                YAML Path: /Users/yilunli/Desktop/moar_experiments/moar_experiments/reproduce_moar/medical_transcript_py_api/moar_results/pipeline_openai_gpt-5.1-mini.yaml
+                Error Message: litellm.UnsupportedParamsError: openai does not support parameters: ['tool_choice'], for model=gpt-5.1-mini. To drop these, set `litellm.drop_params=True` or for proxy:
+
+`litellm_settings:
+ drop_params: true`
+. 
+ If you want to use these params dynamically send allowed_openai_params=['tool_choice'] in your request.
+                ================================================================================
+                
+                ================================================================================
+                Timestamp: 2026-03-25 22:06:07
+                Node ID: 1
+                Parent ID: 0
+                Latest Action: None
+                Failure Type: simulation_execution_failure
+                YAML Path: /Users/yilunli/Desktop/moar_experiments/moar_experiments/reproduce_moar/medical_transcript_py_api/moar_results/pipeline_openai_gpt-5.1-mini.yaml
+                Error Message: Failed to execute plan /Users/yilunli/Desktop/moar_experiments/moar_experiments/reproduce_moar/medical_transcript_py_api/moar_results/pipeline_openai_gpt-5.1-mini.yaml: litellm.UnsupportedParamsError: openai does not support parameters: ['tool_choice'], for model=gpt-5.1-mini. To drop these, set `litellm.drop_params=True` or for proxy:
+
+`litellm_settings:
+ drop_params: true`
+. 
+ If you want to use these params dynamically send allowed_openai_params=['tool_choice'] in your request.
+                ================================================================================
+                
