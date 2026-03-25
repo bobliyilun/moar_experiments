@@ -4,8 +4,6 @@ datasets:
     path: /Users/yilunli/Desktop/moar_experiments/moar_experiments/data/train/cuad_50.json
 default_model: openai/gpt-4o-mini
 bypass_cache: false
-litellm_settings:
-  drop_params: true
 optimizer_config:
   type: moar
   save_dir: ./moar_result
@@ -18,6 +16,7 @@ optimizer_config:
   rewrite_agent_model: openai/gpt-4o-mini
   ground_truth_file: /Users/yilunli/Desktop/moar_experiments/moar_experiments/data/CUAD-master_clauses.csv
   bypass_cache: false
+  exploration_weight: 1.414
 operations:
 - name: extract_relevant_clauses
   type: map

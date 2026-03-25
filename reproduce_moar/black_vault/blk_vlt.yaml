@@ -1,91 +1,59 @@
-default_model: azure/gpt-5-nano
-bypass_cache: true
+default_model: openai/gpt-4o-mini
+bypass_cache: false
+
 datasets:
   articles:
     type: file
-    path: experiments/reasoning/data/train/blackvault.json
+    path: /Users/yilunli/Desktop/moar_experiments/moar_experiments/data/test/blackvault.json
+
 operations:
-- name: truncate_case_file_head
-  type: code_map
-  code: "def transform(input_doc):\n    all_content_content = input_doc.get('all_content',\
-    \ '')\n    words = all_content_content.split()\n\n    if len(words) <= 150:\n\
-    \        # Document is short enough, keep as is\n        truncated = all_content_content\n\
-    \    else:\n        head = ' '.join(words[:150])\n        if 0 > 0:\n        \
-    \    tail = ' '.join(words[-0:])\n            truncated = head + ' ... ' + tail\n\
-    \        else:\n            truncated = head\n\n    return {'all_content': truncated}"
-- name: extract_event_type
-  type: map
-  litellm_completion_kwargs:
-    temperature: 0.0
-  output:
-    schema:
-      event_type: str
-  prompt: "Given the following content from a Black Vault case file, carefully read\
-    \ through all descriptions, background, and analysis. Identify and extract the\
-    \ specific category of extraterrestrial or paranormal event described within.\
-    \ \n\nInstructions:\n- Determine the event type according to the main incident,\
-    \ not subsequent opinions, analyses, or unrelated references. If more than one\
-    \ event is present, select the single most prominent or central event described.\n\
-    - Consider only substantive, investigative, or reported events (e.g., a UFO sighting,\
-    \ ghost encounter, crop circle formation, possible alien abduction, analysis of\
-    \ anomalous physical traces, etc.). Ignore documents that are commentary, debunkings,\
-    \ or discussions without an actual reported event.\n- If the document is about\
-    \ the analysis of physical evidence (e.g., residue, implants, soil samples, photographs)\
-    \ directly linked to a reported event, extract the event type that the evidence\
-    \ pertains to (e.g., crop circle, close encounter, UFO sighting, unexplained residue).\n\
-    - If no clear event or encounter is described, return \"None\" as the event type.\n\
-    - Do NOT reference witness names, document metadata, or analyst commentary.\n\n\
-    Output: Provide a single, specific, concise event type category (e.g.: \"UFO sighting\"\
-    , \"ghost encounter\", \"crop circle formation\", \"alien abduction\", \"Mars\
-    \ anomaly\", \"physical trace analysis\", or \"None\" for documents without a\
-    \ described event).\n\nCase file:\n{{ input.all_content }}"
-- name: aggregate_locations
-  type: reduce
-  reduce_key: event_type
-  litellm_completion_kwargs:
-    temperature: 0.0
-  output:
-    schema:
-      locations: list[str]
-  prompt: 'For extraterrestrial/paranormal events of type "{{ reduce_key }}", analyze
-    these incident reports:
+  - name: extract_event_type
+    type: map
+    litellm_completion_kwargs:
+      temperature: 0.0
+    prompt: |
+      Read the Black Vault article below and classify the primary reported event.
 
+      Return exactly one concise event type label (for example: "humanoid sighting",
+      "ufo sighting", "alien abduction", "crop circle", "haunting", "none").
 
-    {% for report in inputs %}
+      If no concrete event is described, return "none".
 
-    Report {{ loop.index }}:
+      Article:
+      {{ input.all_content }}
+    output:
+      schema:
+        event_type: str
 
-    {{ report.all_content }}
+  - name: collect_distinct_locations_by_event_type
+    type: reduce
+    reduce_key: event_type
+    litellm_completion_kwargs:
+      temperature: 0.0
+    prompt: |
+      You are given multiple articles that all share this event type: "{{ reduce_key }}".
 
-    {% endfor %}
+      Extract all distinct real-world locations mentioned across the articles.
+      Normalize duplicates (for example, "NYC" and "New York City" should become one entry).
+      Exclude vague references (for example, "nearby area", "unknown location").
 
+      Articles:
+      {% for report in inputs %}
+      ---
+      {{ report.all_content }}
+      {% endfor %}
+    output:
+      schema:
+        event_type: str
+        locations: list[str]
 
-    Extract and list all unique locations of observation mentioned across these reports.
-    They should be real locations on Earth.
-
-    '
 pipeline:
   steps:
-  - name: analyze_events
-    input: articles
-    operations:
-    - truncate_case_file_head
-    - extract_event_type
-    - aggregate_locations
+    - name: black_vault_event_location_pipeline
+      input: articles
+      operations:
+        - extract_event_type
+        - collect_distinct_locations_by_event_type
   output:
     type: file
-    path: /mnt/docetl-ro-experiments/outputs/blackvault_mcts_final/gpt_nano_config_35.json
-
-optimizer_config:
-  type: moar
-  save_dir: results/moar_optimization
-  available_models:  # LiteLLM model names - ensure API keys are set in your environment
-    - gpt-4o-mini
-    - gpt-4o
-    - gpt-5.1-mini
-    - gpt-5.1
-  evaluation_file: evaluate_medications.py
-  metric_key: medication_extraction_score  # This must match a key in your evaluation function's return dictionary
-  max_iterations: 40
-  rewrite_agent_model: gpt-5.1
-  dataset_path: data/transcripts_sample.json  # Optional: use sample/hold-out dataset
+    path: moar_experiments/reproduce_moar/black_vault/blk_vlt_results.json
