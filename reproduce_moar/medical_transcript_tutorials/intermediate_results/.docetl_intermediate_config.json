@@ -1,0 +1,8 @@
+{
+  "medical_info_extraction": {
+    "extract_medications": "42af2fbcf8ccae16c6a98b36a83e594ffb6000ad9b1002ef559c333f15d12452",
+    "unnest_medications": "f6c23cfc4a7f001fbc0fee2626488c9edf8b4e4f7d517f6d94d5a574f165916b",
+    "resolve_medications": "1d6266c6b5153924ffa47454cf810b6428a74a6558796818a62fffcbb1c4f682",
+    "summarize_prescriptions": "bfd0fe6301e5e6e236af98389ce9ae7c9367994b5d8a98a347a4b867b2c3b0f6"
+  }
+}

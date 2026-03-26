@@ -1,5 +1,8 @@
 {
   "contract_analysis": {
-    "extract_relevant_clauses": "4ece776a979b80f226504ff28622dc9d82d4900ba2d94fd6962f75d36ed42b30"
+    "extract_relevant_clauses": "4ece776a979b80f226504ff28622dc9d82d4900ba2d94fd6962f75d36ed42b30",
+    "split_extract_relevant_clauses": "ab392b7ef83418d6d3eb236013246ec781ca2fbdc05a1249cd70599ef6cd542f",
+    "topk_extract_relevant_clauses_chunks": "e3eda6766b17417e27d79ec771c3d96917c8afd3d458d74e9f15612db9f706e0",
+    "reduce_extract_relevant_clauses": "30a190982a22f632e3020c407f01dfddcbe94ddb6341c8752e18570bfe1f1add"
   }
 }
